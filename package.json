@@ -10,11 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+	"x-echarts": "0.0.4",
     "vue": "^3.3.11",
 	"echarts": "^5.4.0",
     "echarts-liquidfill": "^3.0.0",
 	"echarts-wordcloud": "^2.1.0",
-    "lodash": "^4.17.15"
+    "lodash": "^4.5.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",

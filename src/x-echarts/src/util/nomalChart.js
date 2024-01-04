@@ -2,8 +2,20 @@
 
 // import { FONT_S, FONT_M, FONT_L, COLOR } from '../config/config';
 import CONFIG from '../config/config';
-import lodash from 'lodash';
-let _merge = lodash.merge;
+// import './lodash';
+let _merge = function(...objects) {  
+    let result = {};  
+  
+    objects.forEach(obj => {  
+        for (let key in obj) {  
+            if (obj.hasOwnProperty(key)) {  
+                result[key] = obj[key];  
+            }  
+        }  
+    });  
+  
+    return result;  
+};;
 // import imgSrc from '../images/nodata.png';
 import util from './util';
 
