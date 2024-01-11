@@ -549,10 +549,10 @@ vue@^3.3.11:
     "@vue/server-renderer" "3.3.13"
     "@vue/shared" "3.3.13"
 
-x-echarts@0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/x-echarts/-/x-echarts-0.0.4.tgz#89c86b0a731856b00d6e91c8ba5eb3d71d8832f0"
-  integrity sha512-pDt8oGF+d9Mma7SAwvvpewbKEOB1Ji9diz7hwYgWuYVXHqkI/zUsPcTiqPCffzvm87T4vYfm8660z8WD1WD9mA==
+x-echarts@0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/x-echarts/-/x-echarts-0.0.5.tgz#be65228cd30eaa2d87a5fcfa64e027f4b114f055"
+  integrity sha512-xpI34QQSm5bNeZ4CUP2aixvx7kaYZjls0avNz4cTf6Q0yWilZqP8ou8hUVhQTFu/shmV92QipWafm0uVGjkhtw==
   dependencies:
     echarts "^5.4.0"
     echarts-liquidfill "^3.0.0"

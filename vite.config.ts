@@ -6,11 +6,14 @@ import path from 'path';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
+  define: {
+    'process.env': process.env
+  },
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/components/src/index.js'),
-      name: 'MyLib',
-      fileName: (format) => `my-lib.${format}.js`
+      entry: path.resolve(__dirname, 'src/x-echarts/src/index.js'),
+      name: 'myLib',
+      fileName: (format) => `myLib.${format}.js`
     },
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖

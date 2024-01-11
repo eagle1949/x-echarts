@@ -20,7 +20,7 @@ let _merge = function(...objects) {
 import util from './util';
 
 // let echarts = require('echarts/lib/echarts');
-import echarts from 'echarts/lib/echarts';
+import * as echarts from 'echarts';
 
 // import * as echarts from 'echarts';
 // require('echarts-liquidfill');

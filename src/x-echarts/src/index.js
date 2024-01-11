@@ -1,5 +1,5 @@
-
 import './css/index.css';
+// require('./css/index.css');
 
 import EChart from '../packages/e-chart.vue';
 import EPie from '../packages/e-pie.vue';
@@ -87,6 +87,9 @@ function install(app) {
             app.component(component.name, component);
         });
         app.prototype.$pChart = {
+            setChartConfig
+        };
+		app.prototype.$xEchart = {
             setChartConfig
         };
         app.prototype.$echarts = echarts;

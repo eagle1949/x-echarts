@@ -7,10 +7,11 @@
 	"fastInstall": "yarn install",
     "dev": "vite",
     "build": "vue-tsc && vite build",
+	"lib": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-	"x-echarts": "0.0.4",
+	"x-echarts": "0.0.5",
     "vue": "^3.3.11",
 	"echarts": "^5.4.0",
     "echarts-liquidfill": "^3.0.0",
