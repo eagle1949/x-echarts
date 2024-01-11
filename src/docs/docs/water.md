@@ -184,7 +184,7 @@
 <script>
   export default {
 	created () {
-	  	this.$pChart.setChartConfig({
+	  	this.$xEchart.setChartConfig({
 	  		THEME_COLOR: 'light'
 	  	});
 	},

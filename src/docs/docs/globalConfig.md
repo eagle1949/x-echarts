@@ -12,7 +12,7 @@
 <script>
   export default {
 		created () {
-			this.$pChart.setChartConfig({
+			this.$xEchart.setChartConfig({
 				FONT_COLOR: '#fff',
 				BORDER_COLOR: '#6785a3',
 				FONT_S: 16,
@@ -67,7 +67,7 @@
 <script>
   export default {
 		created () {
-			this.$pChart.setChartConfig({
+			this.$xEchart.setChartConfig({
 				FONT_COLOR: '#666',
 				BORDER_COLOR: '#a5a5a5',
 				FONT_S: 16,

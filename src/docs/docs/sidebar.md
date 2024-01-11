@@ -14,7 +14,6 @@
  -->
 - 指南
  - [介绍](/intro)
- - [版本说明](/update)
  - [安装和引入](install)
  - [图表属性](/start)
  - [事件](/event)
@@ -37,9 +36,3 @@
   - [条纹图](/stripeBar)
   - [词云图](/wordcloud)
   
-  
-- 业务示例
-  - [水环境](/water)
-  - [气环境](/air)
-  - [变化排名图](/varietyBar)
-  - [资产建设图](/assetsBar)
