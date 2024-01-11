@@ -50,9 +50,6 @@
 <template>
     <e-radar 
         :data="data"
-        :config="{
-            color: ['#d8cf3a', '#20cb44']
-        }"
         style="width: 400px; height: 400px;"
     ></e-radar>
 </template>
@@ -101,6 +98,6 @@
 
 | 配置项 | 简介 | 类型 | 备注 |
 | --- | --- | --- | --- |
-| color | 颜色 | array，string | 默认使用常规配色， 指定颜色如["#f00", "#00f"]，  或如"waterGradesColor"指定使用水质等级配色 [参考说明](/color)|
+| color | 颜色 | array，string | 默认使用常规配色， 指定颜色如["#f00", "#00f"]|
 | lineColor | 轴线颜色 | string | 默认使用全部配置中的BORDER_COLOR |
 | areaColor | 背景分隔颜色 | array | 默认无 |

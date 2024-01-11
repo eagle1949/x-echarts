@@ -18,7 +18,7 @@
 - 新增词云组件
 
 ## 3.0 版本说明
-p-charts3.X 对比 p-charts2.X 有如下更新
+x-echarts3.X 对比 x-echarts2.X 有如下更新
  - 依赖的echarts从^4.6.0升级为^5.2.0。
  - 主题配色修改。
  - 各图表样式UI优化。
@@ -41,4 +41,4 @@ p-charts3.X 对比 p-charts2.X 有如下更新
 
 
 
-[查看p-charts2.X 使用文档](http://www.bovosz.com/uidemo/index.html#/intro)
+[查看x-echarts2.X 使用文档](http://www.bovosz.com/uidemo/index.html#/intro)

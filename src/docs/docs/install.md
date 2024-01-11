@@ -6,32 +6,26 @@
  * @Description: 
  -->
 # 安装和引入
-## 配置私服
-本项目是发布到公司私服上，所以要先配置环境，新建.npmrc文件(和package.json同级)
-```$xslt
-registry=http://nexus.szboanda.com:8081/repository/npm-all
-```
-
 ## 安装依赖
 ```
-npm install p-charts || yarn add p-charts
+npm install x-echarts || yarn add x-echarts
 ```
 
 ## main.js 中引入
 ```
-import powerDataChart from 'p-charts';
-Vue.use(powerDataChart); // Vue3中 app.use(powerDataChart);
+import xEcharts from 'x-echarts';
+Vue.use(xEcharts); // Vue3中 app.use(xEcharts);
 ```
 
-## 移动端使用说明
- - 使用uniapp的移动端可使用p-charts-mobile  当前最新版本1.0.3
- - p-charts-mobile依赖lime-echart ^1.0.1
+<!-- ## 移动端使用说明 -->
+ <!-- - 使用uniapp的移动端可使用x-echarts-mobile  当前最新版本1.0.3
+ - x-echarts-mobile依赖lime-echart ^1.0.1
  - 可在pages.json中配置easycom
 ```
 "easycom": {
 	//...其他配置
 	"^l-echart": "lime-echart/components/lime-echart/index.vue",
-	"^p-(.*)": "p-charts-mobile/packages/p-$1.vue"
+	"^p-(.*)": "x-echarts-mobile/packages/p-$1.vue"
 }
-```
+``` -->
 

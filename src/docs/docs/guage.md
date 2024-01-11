@@ -8,59 +8,6 @@
 
 # 仪表盘
 
-#### 样式 1
-
-<vuep template="#simple_x"></vuep>
-
-<script v-pre type="text/x-template" id="simple_x">
-<template>
-	<div style="display: flex; flex-wrap: wrap">
-		<!-- 设置颜色 -->
-		<e-dash-board
-			style="width: 500px;height: 350px;"
-			:data="{ value: 50 }"
-			:config="{
-				type: '1',
-				max: 300,
-                unit: 'mg/L',
-				color: [{
-					colorStops: [{
-						offset: 0,
-						color: '#00d8ff' // 0% 处的颜色
-					}, {
-						offset: 1,
-						color: '#0c8ae2' // 100% 处的颜色
-					}]
-				}, '#e4e4e4', '#0c8ae2', '#0c8ae2']
-			}"
-		></e-dash-board>
-		
-	</div>
-</template>
-
-<script>
-  export default {
-    data () {
-      return {
-        data: {
-        }
-      }
-    }
-  }
-</script>
-</script>
-
-##### 样式 1 config 配置项
-
-| 配置项           | 简介         | 类型   | 备注                                                           |
-| ---------------- | ------------ | ------ | -------------------------------------------------------------- |
-| color            | 数值颜色     | Array  | 依次是圆环数值区域颜色、圆环背景色、装饰线条圆点颜色、文字颜色 |
-| unit             | 数值单位     | string | 默认为空                                                       |
-| max              | 最大刻度     | number | 默认为 100                                                     |
-| radius           | 圆环半径     | Array  | 默认为["58%", "45%"]                                           |
-| decorationRadius | 装饰图形位置 | number | 默认为 0.7， 值应为 0~1 直接的数值，表示距离中心点的偏移比例   |
-| type             | 样式类型     | string | 值为 1 时使用样式'1' 值为'2'时使用样式 2 值为'3'时使用样式 3   |
-
 #### 样式 2
 
 <vuep template="#simple_1"></vuep>

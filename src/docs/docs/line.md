@@ -52,7 +52,6 @@
     <e-line 
         :data="data" 
         :config="{
-            color: ['#d8cf3a', '#20cb44'],
             showFillArea: true
         }"
         style="width: 600px; height: 400px;"

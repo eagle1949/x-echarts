@@ -13,7 +13,6 @@
     <e-pie
         :data="data"
         @click="handleClick"
-        business="waterGrades"
         style="width: 400px;height: 400px;"
     ></e-pie>
 </template>
@@ -23,12 +22,12 @@
     data () {
       return {
         data: [
-            { name: 'Ⅰ类', value: 5 },
-            { name: 'Ⅱ类', value: 5 },
-            { name: 'Ⅲ类', value: 30 },
-            { name: 'Ⅳ类', value: 20 },
-            { name: 'Ⅴ类', value: 10 },
-            { name: '劣Ⅴ类', value: 2 }
+            { name: 'A类', value: 5 },
+            { name: 'B类', value: 5 },
+            { name: 'C类', value: 30 },
+            { name: 'D类', value: 20 },
+            { name: 'E类', value: 10 },
+            { name: 'F类', value: 2 }
         ]
       }
     },

@@ -7,9 +7,6 @@
 <template>
     <e-stack-bar 
 		:data="data" 
-		:config="{
-		    color: 'airGradesColor'
-		}"
 		style="width: 600px; height: 400px;"
 	></e-stack-bar>
 </template>
@@ -21,9 +18,9 @@
         data: {
             xAxis: ['2015年', '2016年', '2017年'],
             series: [
-                { name: '优', data: [20, 25, 30] },
-                { name: '良', data: [20, 25, 30] },
-                { name: '轻度污染', data: [60, 50, 40] }
+                { name: 'A', data: [20, 25, 30] },
+                { name: 'B', data: [20, 25, 30] },
+                { name: 'C', data: [60, 50, 40] }
             ]
         }
       }
@@ -50,9 +47,9 @@
         data: {
             yAxis: ['2015年', '2016年', '2017年'],
             series: [
-                { name: '优', data: [20, 25, 30] },
-                { name: '良', data: [20, 25, 30] },
-                { name: '轻度污染', data: [60, 50, 40] }
+                { name: 'A', data: [20, 25, 30] },
+                { name: 'B', data: [20, 25, 30] },
+                { name: 'C', data: [60, 50, 40] }
             ]
         }
       }
@@ -93,9 +90,9 @@
         data: {
             xAxis: ['2015年', '2016年', '2017年'],
             series: [
-                { name: '优', data: [20, 25, 30] },
-                { name: '良', data: [20, 25, 30] },
-                { name: '轻度污染', data: [60, 50, 40] }
+                { name: 'A', data: [20, 25, 30] },
+                { name: 'B', data: [20, 25, 30] },
+                { name: 'C', data: [60, 50, 40] }
             ]
         }
       }
@@ -164,7 +161,7 @@
 
 | 配置项 | 简介 | 类型 | 备注 |
 | --- | --- | --- | --- |
-| color | 颜色 | array，string | 默认使用常规配色， 指定颜色如["#f00", "#00f"]，  或如"waterGradesColor"指定使用水质等级配色 [参考说明](/color)|
+| color | 颜色 | array，string | 默认使用常规配色， 指定颜色如["#f00", "#00f"]|
 | unit | 数值轴单位 | string | 默认不展示  图表为纵向时显示在y轴末端，横向时显示在x轴末端。|
 | pictorial | 象形图标 | string | 默认不展示 圆柱使用'circle'，菱柱使用'diamond'。 注：设置象形图标时图例不可选，暂不支持横向展示。|
 | barWidth | 柱子的宽度 | number | 默认值 20。|
