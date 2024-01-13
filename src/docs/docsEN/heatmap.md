@@ -1,6 +1,6 @@
-# 热力图
+# heatmap
 
-#### 示例
+#### example
 <vuep template="#simple"></vuep>
 
 <script v-pre type="text/x-template" id="simple">
@@ -16,19 +16,19 @@
     data () {
       return {
         data: {
-           xAxis: ['2015年', '2016年', '2017年', '2018年', '2019年'],
+           xAxis: ['2015', '2016', '2017', '2018', '2019'],
            series: [
-               { name: '广州市', data: [100, 120, 140, 200, 300] },
-               { name: '广州市', data: [100, 130, 140, 200, 300] },
-               { name: '广州市', data: [400, 120, 140, 200, 300] },
-               { name: '广州市', data: [100, 120, 140, 200, 300] },
-               { name: '广州市', data: [200, 120, 140, 200, 300] },
-               { name: '广州市', data: [100, 120, 140, 200, 300] },
-               { name: '广州市', data: [100, 120, 140, 200, 300] },
-               { name: '广州市', data: [100, 120, 140, 200, 300] },
-               { name: '广州市', data: [100, 125, 140, 200, 300] },
-               { name: '广州市', data: [100, 120, 140, 200, 300] },
-               { name: '广州市', data: [100, 120, 120, 200, 300] }
+               { name: 'guangzhou', data: [100, 120, 140, 200, 300] },
+               { name: 'guangzhou', data: [100, 130, 140, 200, 300] },
+               { name: 'guangzhou', data: [400, 120, 140, 200, 300] },
+               { name: 'guangzhou', data: [100, 120, 140, 200, 300] },
+               { name: 'guangzhou', data: [200, 120, 140, 200, 300] },
+               { name: 'guangzhou', data: [100, 120, 140, 200, 300] },
+               { name: 'guangzhou', data: [100, 120, 140, 200, 300] },
+               { name: 'guangzhou', data: [100, 120, 140, 200, 300] },
+               { name: 'guangzhou', data: [100, 125, 140, 200, 300] },
+               { name: 'guangzhou', data: [100, 120, 140, 200, 300] },
+               { name: 'guangzhou', data: [100, 120, 120, 200, 300] }
            ]
         }
       }
@@ -59,19 +59,19 @@
     data () {
       return {
         data: {
-           xAxis: ['2015年', '2016年', '2017年', '2018年', '2019年'],
+           xAxis: ['2015', '2016', '2017', '2018', '2019'],
            series: [
-               { name: '广州市', data: [100, 120, 140, 200, 300] },
-               { name: '广州市', data: [100, 30, 140, 200, 300] },
-               { name: '广州市', data: [400, 120, 140, 200, 300] },
-               { name: '广州市', data: [100, 120, 140, 200, 300] },
-               { name: '广州市', data: [0, 120, 140, 200, 300] },
-               { name: '广州市', data: [100, 120, 140, 200, 300] },
-               { name: '广州市', data: [100, 120, 140, 200, 300] },
-               { name: '广州市', data: [100, 120, 140, 200, 300] },
-               { name: '广州市', data: [100, 5, 140, 200, 300] },
-               { name: '广州市', data: [100, 120, 140, 200, 300] },
-               { name: '广州市', data: [100, 120, 0, 200, 300] }
+               { name: 'guangzhou', data: [100, 120, 140, 200, 300] },
+               { name: 'guangzhou', data: [100, 30, 140, 200, 300] },
+               { name: 'guangzhou', data: [400, 120, 140, 200, 300] },
+               { name: 'guangzhou', data: [100, 120, 140, 200, 300] },
+               { name: 'guangzhou', data: [0, 120, 140, 200, 300] },
+               { name: 'guangzhou', data: [100, 120, 140, 200, 300] },
+               { name: 'guangzhou', data: [100, 120, 140, 200, 300] },
+               { name: 'guangzhou', data: [100, 120, 140, 200, 300] },
+               { name: 'guangzhou', data: [100, 5, 140, 200, 300] },
+               { name: 'guangzhou', data: [100, 120, 140, 200, 300] },
+               { name: 'guangzhou', data: [100, 120, 0, 200, 300] }
            ]
         }
       }
@@ -80,7 +80,7 @@
 </script>
 </script>
 
-#### data 数据
+#### data
 
 | Data Item            | Description          | Type   | Remarks  |
 | -------------------- | -------------------- | ------ | -------- |
@@ -89,7 +89,7 @@
 | data.series[i].name  | Data item name       | string | Required |
 | data.series[i].data  | Data array           | array  | Required |
 
-#### config 配置项
+#### config
 
 | Configuration Item | Description                          | Type    | Remarks                                                                                       |
 | ------------------ | ------------------------------------ | ------- | --------------------------------------------------------------------------------------------- |

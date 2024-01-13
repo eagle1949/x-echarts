@@ -1,6 +1,6 @@
-# 圆柱图
+# cylinderBar
 
-#### 设置颜色、数值单位和柱宽
+#### Set colors, numerical units, and column widths
 <vuep template="#simple_1"></vuep>
 
 <script v-pre type="text/x-template" id="simple_1">
@@ -30,7 +30,7 @@
 </script>
 </script>
 
-#### 渐变色圆柱图
+#### Gradient cylinder diagram
 <vuep template="#simple_jb"></vuep>
 
 <script v-pre type="text/x-template" id="simple_jb">
@@ -112,14 +112,14 @@
 </script>
 </script>
 
-#### data 数据
+#### data
 
 | Data Item   | Description        | Type   | Remarks  |
 | ----------- | ------------------ | ------ | -------- |
 | data.xAxis  | x-axis category data | array  | Required |
 | data.data   | Data array          | array  | Required |
 
-#### config 配置项
+#### config
 
 | Configuration Item | Description | Type | Remarks |
 | ------------------ | ----------- | ---- | ------- |

@@ -1,8 +1,8 @@
-# 五分钟快速入门
+# Five Minute Quick Start
 
-## 根据业务选择对应图表
+## Select corresponding charts based on business
 
-- 比如我们要用到线性图，这个时候就引入`p-line`标签到vue页面中
+- For example, when we need to use a linear graph, we introduce the `p-line` label into the Vue page
 
 <vuep template="#simple"></vuep>
 
@@ -16,14 +16,14 @@
     data () {
       return {
         data: {
-            xAxis: ['2014年', '2015年', '2016年', '2017年', '2018年', '2019年'],
+            xAxis: ['2014', '2015', '2016', '2017', '2018', '2019'],
             series: [
                 {
-                    name: '2018年',
+                    name: '2018',
                     data: [22, 33, 28, 36, 28, 35]
                 },
                 {
-                    name: '2019年',
+                    name: '2019',
                     data: [28, 36, 28, 35, 22, 33]
                 }
             ]
@@ -34,9 +34,9 @@
 </script>
 </script>
 
-## 调整option （例如我们要把图例去掉, 设置第二个折线的标记图形大小）
+## Adjust options (for example, if we want to remove the legend and set the size of the marking graphic for the second line)
 
-- 这个时候，就在标签上加上 `show-option`
+- At this point, add `show-option` to the label
 
 <vuep template="#simple1"></vuep>
 
@@ -53,14 +53,14 @@
     data () {
       return {
         data: {
-            xAxis: ['2014年', '2015年', '2016年', '2017年', '2018年', '2019年'],
+            xAxis: ['2014', '2015', '2016', '2017', '2018', '2019'],
             series: [
                 {
-                    name: '2018年',
+                    name: '2018',
                     data: [22, 33, 28, 36, 28, 35]
                 },
                 {
-                    name: '2019年',
+                    name: '2019',
                     data: [28, 36, 28, 35, 22, 33]
                 }
             ]
@@ -71,15 +71,14 @@
 </script>
 </script>
 
-- 然后按F12查看具体echarts配置
+- Then press F12 to view the specific echarts configuration
 
 <img src="./docs/showopt.png" style="width:100%;" />
 
 <!-- - 复制配置项到对应页面调整echarts配置（<a href="https://gallery.echartsjs.com/editor.html" target="_blank">echarts 配置调整传送门</a>） -->
 
-- 以去掉图例、设置第二个折线的标记图形大小为例
-
-在标签加上`option`（这里的配置是echarts原生配置）属性替换对应属性（这里是配置的替换默认的）,然后图例就去掉了。
+- Taking the removal of the legend and setting the size of the marking graphic for the second line as an example
+- Add the `option` attribute to the tag (where the configuration is native to echarts) to replace the corresponding attribute (where the configuration is replaced by default), and then remove the legend.
 
 <vuep template="#simple2"></vuep>
 
@@ -108,14 +107,14 @@
 			]
         },
         data: {
-            xAxis: ['2014年', '2015年', '2016年', '2017年', '2018年', '2019年'],
+            xAxis: ['2014', '2015', '2016', '2017', '2018', '2019'],
             series: [
                 {
-                    name: '2018年',
+                    name: '2018',
                     data: [22, 33, 28, 36, 28, 35]
                 },
                 {
-                    name: '2019年',
+                    name: '2019',
                     data: [28, 36, 28, 35, 22, 33]
                 }
             ]
@@ -126,9 +125,9 @@
 </script>
 </script>
 
-## 操作ECharts实例
+## Operating ECharts instances
 
-- 可以使用$ref操作ECharts实例，所有方法具体查看[echarts API文档](https://echarts.apache.org/zh/api.html#echarts)
+- You can use $ref to operate ECharts instances. Please refer to the [ECharts API documentation] for specific methods（ https://echarts.apache.org/en/api.html#echarts ）
 
 <vuep template="#simple-sl"></vuep>
 
@@ -142,12 +141,12 @@
     data () {
       return {
          pieData: [
-			{ name: 'Ⅰ类', value: 5 },
-			{ name: 'Ⅱ类', value: 5 },
-			{ name: 'Ⅲ类', value: 30 },
-			{ name: 'Ⅳ类', value: 20 },
-			{ name: 'Ⅴ类', value: 10 },
-			{ name: '劣Ⅴ类', value: 2 }
+			{ name: 'Ⅰ', value: 5 },
+			{ name: 'Ⅱ', value: 5 },
+			{ name: 'Ⅲ', value: 30 },
+			{ name: 'Ⅳ', value: 20 },
+			{ name: 'Ⅴ', value: 10 },
+			{ name: '劣Ⅴ', value: 2 }
 		],
 		timer: null
       }

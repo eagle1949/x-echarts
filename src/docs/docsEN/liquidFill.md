@@ -5,9 +5,9 @@
  * @LastEditTime : 2020-01-21 16:57:28
  * @Description: 
  -->
-# 水球图
+# liquidFill
 
-#### 设置颜色、标题、缩小水面比例  （深色）
+#### Set color, title, and reduce water surface scale (dark)
 
 <vuep template="#simple_8"></vuep>
 <script v-pre type="text/x-template" id="simple_8">
@@ -44,18 +44,18 @@
 </script>
 </script>
 
-#### 设置颜色、标题、缩小水面比例
+#### Set colors, titles, and reduce water surface proportions
 
 <vuep template="#simple_811"></vuep>
 <script v-pre type="text/x-template" id="simple_811">
 <template>
 	<div>		
-		<!-- 设置颜色、标题、缩小水面比例 -->
+		<!-- Set colors, titles, and reduce water surface proportions -->
 		<e-water-polo
 			style="width: 300px;height: 300px;"
 			:data="{ value: 99 }"
 			:config="{
-				title: '达标率',
+				title: 'Compliance rate',
 				itemColor: 'rgb(45,175,230)',
 				shadowColor: 'rgb(15, 115, 238)',
 				scale: 0.6
@@ -82,13 +82,13 @@
 </script>
 
 
-#### 多层水面 + 阴影背景
+#### Multi layer water surface+shadow background
 <vuep template="#simple_81"></vuep>
 <script v-pre type="text/x-template" id="simple_81">
 <template>
 	<div>
 		
-		<!-- 多层水面 + 阴影背景  -->
+		<!-- Multi layer water surface+shadow background  -->
 		<e-water-polo
 			style="width: 300px;height: 300px;"
 			:data="{ value: 60 }"
@@ -138,13 +138,13 @@
 </script>
 </script>
 
-#### 多层水面 + 透明背景 + 无间隔轮廓
+#### Multi layer water surface+transparent background+seamless contour
 <vuep template="#simple_82"></vuep>
 <script v-pre type="text/x-template" id="simple_82">
 <template>
 	<div>
 		
-		<!-- 多层水面 + 透明背景 + 无间隔轮廓  -->
+		<!-- Multi layer water surface+transparent background+seamless contour  -->
 		<e-water-polo
 			style="width: 300px;height: 300px;"
 			:data="{ value: 36 }"
@@ -197,13 +197,13 @@
 
 
 
-#### data 数据
+#### data
 
 | Data Item    | Description        | Type   | Remarks  |
 | ------------ | ------------------ | ------ | -------- |
 | data.value   | Water level ratio  | number | Required |
 
-#### config 配置项
+#### config
 
 | Configuration Item | Description           | Type   | Remarks                                        |
 | ------------------ | --------------------- | ------ | ---------------------------------------------- |

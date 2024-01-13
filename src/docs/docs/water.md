@@ -35,7 +35,7 @@
 		<e-pie
 			:data="pieData"
 			:config="{
-				color: 'waterGradesColor',
+				
 				title: '总个数\n300',
 				type: 'ring'
 			}"
@@ -73,7 +73,7 @@
 		<e-pie
 			:data="pieData"
 			:config="{
-				color: 'waterGradesColor',
+				
 				type: 'rose'
 			}"
 			style="width: 400px;height: 300px;"
@@ -110,7 +110,7 @@
 		<e-pie
 			:data="pieData"
 			:config="{
-				color: 'waterGradesColor',
+				
 				showLegend: true
 			}"
 			style="width: 500px;height: 300px;"
@@ -145,7 +145,7 @@
 		<e-pie
 			:data="pieData"
 			:config="{
-				color: 'waterGradesColor',
+				
 				showLegend: true,
 				legendOrient: 'vertical'
 			}"

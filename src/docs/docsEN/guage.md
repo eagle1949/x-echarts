@@ -6,9 +6,9 @@
  * @Description:
  -->
 
-# 仪表盘
+# guage
 
-#### 样式 2
+#### style 2
 
 <vuep template="#simple_1"></vuep>
 
@@ -39,7 +39,7 @@
 </script>
 </script>
 
-#### 样式 2 （设置圆环总角度及文字位置）
+#### style 2 （设置圆环总角度及文字位置）
 
 <vuep template="#simple_11"></vuep>
 
@@ -76,7 +76,7 @@
 </script>
 
 
-#### 样式 2 （显示指针、显示刻度、修改圆环宽度、设置最大值及单位、添加标题文字）
+#### style 2 (Display pointer, display scale, modify ring width, set maximum value and units, add title text)
 
 <vuep template="#simple_12"></vuep>
 
@@ -116,7 +116,7 @@
 </script>
 </script>
 
-#### 样式 2 （显示刻度值但不显示刻度轴）
+#### style 2 (Display scale values but not scale axes)
 
 <vuep template="#simple_13"></vuep>
 
@@ -155,7 +155,7 @@
 </script>
 </script>
 
-##### 样式 2 config 配置项
+##### style 2 config
 
 | Configuration Item | Description                             | Type    | Remarks                                                                                       |
 | ------------------ | --------------------------------------- | ------- | ---------------------------------------------------------------------------------------------- |
@@ -173,7 +173,7 @@
 | size               | Scaling                                  | number  | Default is no scaling. When size is a number, the pointer, tick marks, and text are scaled by the specified factor. |
 | type               | Style type                               | string  | When the value is '1', style '1' is used. When the value is '2', style '2' is used. When the value is '3', style '3' is used. |
 
-#### 样式 3
+#### style 3
 
 <vuep template="#simple_2"></vuep>
 
@@ -203,7 +203,7 @@
 </script>
 
 
-#### 样式 3 修改颜色
+#### style 3 Modify Color
 
 <vuep template="#simple_21"></vuep>
 
@@ -211,7 +211,7 @@
 <template>
 	<div style="display: flex; flex-wrap: wrap">
 		
-		<!-- 修改颜色 -->
+		<!-- Modify Color -->
 		<e-dash-board
 			style="width: 400px;height: 300px;"
 			:data="{ value: 20 }"
@@ -236,7 +236,7 @@
 </script>
 </script>
 
-##### 样式 3 config 配置项
+##### style 3 config
 
 | Configuration Item | Description                             | Type   | Remarks                                                                                          |
 | ------------------ | --------------------------------------- | ------ | ------------------------------------------------------------------------------------------------- |
@@ -247,14 +247,14 @@
 | max                | Maximum scale                            | number | Default is 100.                                                                                  |
 | type               | Style type                               | string | When the value is '1', style '1' is used. When the value is '2', style '2' is used. When the value is '3', style '3' is used. |
 
-#### 默认样式
+#### default style
 
 <vuep template="#simple_0"></vuep>
 
 <script v-pre type="text/x-template" id="simple_0">
 <template>
 	<div style="display: flex; flex-wrap: wrap">
-	    <!-- 默认样式 -->
+	    <!-- 默认style -->
 		<e-dash-board
 			style="width: 300px;height: 300px;"
 			:data="{ value: 50 }"
@@ -276,7 +276,7 @@
 </script>
 
 
-#### 默认样式 （适配小尺寸）
+#### Default style (suitable for small sizes)
 
 <vuep template="#simple_01"></vuep>
 
@@ -309,7 +309,7 @@
 </script>
 
 
-#### 默认样式 （修改最大值及单位）
+#### Default style (modify maximum value and units)
 
 <vuep template="#simple_02"></vuep>
 
@@ -341,7 +341,7 @@
 </script>
 </script>
 
-##### 默认样式 config 配置项
+##### default style config
 
 | Configuration Item | Description                             | Type   | Remarks                                            |
 | ------------------ | --------------------------------------- | ------ | -------------------------------------------------- |
@@ -357,7 +357,7 @@
 | ----------------- | ------------------ | ------ | -------- |
 | data.value        | Gauge value        | number | Required |
 
-#### 空气仪表盘
+#### air guage
 
 <vuep template="#airSimple_2"></vuep>
 
@@ -377,7 +377,7 @@
 </script>
 </script>
 
-#### 空气仪表盘 （设置圆环宽度、设置刻度圆环颜色，设置圆环角度）
+#### 空气guage （设置圆环宽度、设置刻度圆环颜色，设置圆环角度）
 
 <vuep template="#airSimple_21"></vuep>
 

@@ -33,7 +33,7 @@
     <e-pie
         :data="pieData"
         :config="{
-            color: 'waterGradesColor',
+            
             title: '总个数\n300',
             type: 'ring'
         }"
@@ -66,7 +66,7 @@
     <e-pie
         :data="pieData"
 		:config="{
-			color: 'waterGradesColor',
+			
 			showLegend: true,
 			legendOrient: 'vertical'
 		}"
@@ -100,7 +100,7 @@
     <e-pie
         :data="pieData"
         :config="{
-            color: 'waterGradesColor',
+            
             type: 'rose',
             showLegend: true
         }"
@@ -137,7 +137,6 @@
 
 | 配置项 | 简介 | 类型 | 备注 |
 | --- | --- | --- | --- |
-| color | 颜色 | array，string | 默认使用常规配色， 指定颜色如["#f00", "#00f"]，  或如"waterGradesColor"指定使用水质等级配色 [参考说明](/color)|
 | showLegend | 是否显示图例 | boolean | 默认为false 不显示 |
 | legendOrient | 图例列表的布局朝向 | string | horizontal横向，vertical纵向，默认为横向 |
 | showLabel | 是否显示线条文字 | boolean | 默认为true |

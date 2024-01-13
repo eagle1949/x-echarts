@@ -1,6 +1,6 @@
-# 条纹图
+# stripeBar
 
-#### 示例
+#### example
 <vuep template="#simple"></vuep>
 
 <script v-pre type="text/x-template" id="simple">
@@ -40,7 +40,7 @@
 </script>
 
 
-#### 显示序号或排名、指定颜色和单位
+#### Display serial number or ranking, specify color and unit
 <vuep template="#simple_1"></vuep>
 
 <script v-pre type="text/x-template" id="simple_1">
@@ -91,7 +91,7 @@
 </script>
 
 
-#### 新增示例
+#### new example
 <vuep template="#simple11"></vuep>
 
 <script v-pre type="text/x-template" id="simple11">
@@ -133,7 +133,7 @@
 </script>
 
 
-#### 象形条纹图
+#### pictographic characters or pictographs stripeBar
 <vuep template="#simple_xx"></vuep>
 
 <script v-pre type="text/x-template" id="simple_xx">
@@ -175,7 +175,7 @@
 </script>
 </script>
 
-#### data 数据
+#### data
 
 | Data Property | Description | Type | Remarks |
 | --- | --- | --- | --- |
@@ -183,7 +183,7 @@
 | data[i].value | Data value | number | Required |
 | data[i].rank | Rank or serial number | number | Optional, displayed before the name when provided |
 
-#### config 配置项
+#### config
 
 | Configuration Option | Description | Type | Remarks |
 | --- | --- | --- | --- |

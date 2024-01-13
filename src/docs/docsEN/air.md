@@ -5,7 +5,7 @@
  * @LastEditTime : 2020-01-21 17:11:02
  * @Description: 
  -->  
-# 气环境业务示例
+# 气环境业务example
 
 #### 优良天数统计 
 参考说明：[圆柱图](/pictorialBar)
@@ -34,7 +34,7 @@
 </script>
 
 
-#### 空气AQI仪表盘 
+#### 空气AQIguage 
 <vuep template="#airSimple_2"></vuep>
 <script v-pre type="text/x-template" id="airSimple_2">
 <template>
@@ -49,7 +49,7 @@
 </script>
 
 
-#### 空气仪表盘 （设置圆环宽度、设置刻度圆环颜色，设置圆环角度）
+#### 空气guage （设置圆环宽度、设置刻度圆环颜色，设置圆环角度）
 
 <vuep template="#airSimple_21"></vuep>
 
@@ -73,11 +73,11 @@
 </script>
 </script>
 
-#### data 数据
+#### data
 
-| 数据项     | 简介       | 类型   | 备注 |
+| 数据项     | 简介       | 类型   | remark |
 | ---------- | ---------- | ------ | ---- |
-| data.value | 仪表盘比例 | number | 必须 |
+| data.value | guage比例 | number | 必须 |
 
 
 

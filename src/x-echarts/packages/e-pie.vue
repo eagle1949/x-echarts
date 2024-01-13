@@ -14,7 +14,7 @@ export default {
         return {
             businessConfigs: {
                 waterGrades: {
-                    color: 'waterGradesColor',
+                    
                     type: 'ring'
                 },
                 merge1n2WaterGrades: {

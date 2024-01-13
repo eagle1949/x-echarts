@@ -124,10 +124,8 @@
 | IMG_NONE_H | Height of the image when there is no data | number | Default value is 134. |
 | GRID | Configuration for grid margins<br/>(applies to line charts, bar charts, stack charts, and heat maps) | Object | Default value: see color description. |
 | EVENTS | Echarts events to listen to | array | Default value is ['click', 'dblclick']. |
-| waterGradesColor | Colors represented by 'waterGradesColor' in config.color | array | Default value: ['#44c5fd', '#51a5fd', '#73bb31', '#eebd15', '#f88e17', '#ee3b5b'] |
-| airGradesColor | Colors represented by 'airGradesColor' in config.color | array | Default value: ['#24bd5d', '#d8bc37', '#f87c12', '#f60000', '#94004b', '#6f001f'] |
 | TOOLTIP_BG_COLOR | Tooltip background color | string | Default value is '#fff'. |
 | TOOLTIP_BORDER_COLOR | Tooltip border color | string | Default value is '#c8c8c8'. |
 | TOOLTIP_FONT_COLOR | Tooltip text color | string | Default value is '#666'. |
 
-> 备注： <br/>setChartConfig 仅支持全局配置， 设置后即公用。<br/>如无特殊要求，不同底色下一般只需要配置THEME_COLOR设置主题色系。 <br/> 因为 echarts 全局字体样式本身无法覆盖所有字体， 因此添加自定义配置时存在字体样式不一致的情况， 需要手动调整。
+> remark： <br/>setChartConfig 仅支持全局配置， 设置后即公用。<br/>如无特殊要求，不同底色下一般只需要配置THEME_COLOR设置主题色系。 <br/> 因为 echarts 全局字体style本身无法覆盖所有字体， 因此添加自定义配置时存在字体style不一致的情况， 需要手动调整。

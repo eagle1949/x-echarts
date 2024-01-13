@@ -373,7 +373,7 @@
 | 配置项 | 简介 | 类型 | 备注 |
 | --- | --- | --- | --- |
 | type | 形态类型 | string | 实心圆circle， 圆环ring，  玫瑰图rose， 默认为实心圆 |
-| color | 颜色 | Array，string | 默认使用常规配色， 指定颜色如["#f00", "#00f"]，  或如"waterGradesColor"指定使用水质等级配色 [参考说明](/color)|
+| color | 颜色 | Array，string | 默认使用常规配色， 指定颜色如["#f00", "#00f"]|
 | showLegend | 是否显示图例 | boolean | 默认为false 不显示 |
 | legendOrient | 图例列表的布局朝向 | string | horizontal横向，vertical纵向，默认为横向 |
 | legendTextStyle | 图例文本样式 | object | 参考[legend. textStyle](https://echarts.apache.org/zh/option.html#legend.textStyle)

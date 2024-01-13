@@ -1,7 +1,7 @@
-# 柱状图
+# bar
 
 
-#### 示例深色
+#### exampledark 
 <vuep template="#simpled"></vuep>
 
 <script v-pre type="text/x-template" id="simpled">
@@ -19,14 +19,14 @@
     data () {
       return {
         data: {
-            xAxis: ['2014年', '2015年', '2016年', '2017年', '2018年', '2019年'],
+            xAxis: ['2014', '2015', '2016', '2017', '2018', '2019'],
             series: [
                 {
-                    name: '2018年',
+                    name: '2018',
                     data: [22, 33, 28, 36, 28, 35]
                 },
                 {
-                    name: '2019年',
+                    name: '2019',
                     data: [28, 36, 28, 35, 22, 33]
                 }
             ]
@@ -37,7 +37,7 @@
 </script>
 </script>
 
-#### 示例
+#### example
 <vuep template="#simple"></vuep>
 
 <script v-pre type="text/x-template" id="simple">
@@ -55,14 +55,14 @@
     data () {
       return {
         data: {
-            xAxis: ['2014年', '2015年', '2016年', '2017年', '2018年', '2019年'],
+            xAxis: ['2014', '2015', '2016', '2017', '2018', '2019'],
             series: [
                 {
-                    name: '2018年',
+                    name: '2018',
                     data: [22, 33, 28, 36, 28, 35]
                 },
                 {
-                    name: '2019年',
+                    name: '2019',
                     data: [28, 36, 28, 35, 22, 33]
                 }
             ]
@@ -73,7 +73,7 @@
 </script>
 </script>
 
-#### 顶部圆角
+#### Top rounded corner
 <vuep template="#simple11"></vuep>
 
 <script v-pre type="text/x-template" id="simple11">
@@ -93,14 +93,14 @@
     data () {
       return {
         data: {
-            xAxis: ['2014年', '2015年', '2016年', '2017年', '2018年', '2019年'],
+            xAxis: ['2014', '2015', '2016', '2017', '2018', '2019'],
             series: [
                 {
-                    name: '2018年',
+                    name: '2018',
                     data: [22, 33, 28, 36, 28, 35]
                 },
                 {
-                    name: '2019年',
+                    name: '2019',
                     data: [28, 36, 28, 35, 22, 33]
                 }
             ]
@@ -111,7 +111,7 @@
 </script>
 </script>
 
-#### 顶部底部圆角
+#### Top and bottom rounded corners
 <vuep template="#simple111"></vuep>
 
 <script v-pre type="text/x-template" id="simple111">
@@ -131,14 +131,14 @@
     data () {
       return {
         data: {
-            xAxis: ['2014年', '2015年', '2016年', '2017年', '2018年', '2019年'],
+            xAxis: ['2014', '2015', '2016', '2017', '2018', '2019'],
             series: [
                 {
-                    name: '2018年',
+                    name: '2018',
                     data: [22, 33, 28, 36, 28, 35]
                 },
                 {
-                    name: '2019年',
+                    name: '2019',
                     data: [28, 36, 28, 35, 22, 33]
                 }
             ]
@@ -150,7 +150,7 @@
 </script>
 
 
-#### 显示数值及单位
+#### Display numerical values and units
 <vuep template="#simple_1"></vuep>
 
 <script v-pre type="text/x-template" id="simple_1">
@@ -170,14 +170,14 @@
     data () {
       return {
         data: {
-            xAxis: ['2014年', '2015年', '2016年', '2017年', '2018年', '2019年'],
+            xAxis: ['2014', '2015', '2016', '2017', '2018', '2019'],
             series: [
                 {
-                    name: '2018年',
+                    name: '2018',
                     data: [22, 33, 28, 36, 28, 35]
                 },
                 {
-                    name: '2019年',
+                    name: '2019',
                     data: [28, 36, 28, 35, 22, 33]
                 }
             ]
@@ -188,7 +188,7 @@
 </script>
 </script>
 
-#### 线柱混合
+#### Line column mixing
 <vuep template="#simple_2"></vuep>
 
 <script v-pre type="text/x-template" id="simple_2">
@@ -204,7 +204,7 @@
     data () {
       return {
         data: {
-            xAxis: ['2014年', '2015年', '2016年', '2017年', '2018年', '2019年'],
+            xAxis: ['2014', '2015', '2016', '2017', '2018', '2019'],
             series: [
                 {
                     name: '均值',
@@ -212,11 +212,11 @@
                     data: [2, 1, 2, 4, 5, 3]
                 },
                 {
-                    name: '2018年',
+                    name: '2018',
                     data: [2.5, 1.5, 3, 4, 5.5, 3.5]
                 },
                 {
-                    name: '2019年',
+                    name: '2019',
                     data: [1.5, 0.5, 1, 4, 4.8, 2.5]
                 }
             ]
@@ -228,7 +228,7 @@
 </script>
 
 
-#### 横向柱状图
+#### Horizontal bar chart
 <vuep template="#simple_3"></vuep>
 
 <script v-pre type="text/x-template" id="simple_3">
@@ -244,14 +244,14 @@
     data () {
       return {
         data: {
-            yAxis: ['2014年', '2015年', '2016年', '2017年', '2018年', '2019年'],
+            yAxis: ['2014', '2015', '2016', '2017', '2018', '2019'],
             series: [
                 {
-                    name: '2018年',
+                    name: '2018',
                     data: [2.5, 1.5, 3, 4, 5.5, 3.5]
                 },
                 {
-                    name: '2019年',
+                    name: '2019',
                     data: [1.5, 0.5, 1, 4, 4.8, 2.5]
                 }
             ]
@@ -262,7 +262,7 @@
 </script>
 </script>
 
-#### 常用渐变色柱状图
+#### Common gradient bar charts
 <vuep template="#simple_jb"></vuep>
 
 <script v-pre type="text/x-template" id="simple_jb">
@@ -301,7 +301,7 @@
 			}
 		],
         data: {
-            xAxis: ['2014年', '2015年', '2016年', '2017年', '2018年', '2019年'],
+            xAxis: ['2014', '2015', '2016', '2017', '2018', '2019'],
             series: [
                 {
                     name: '',
@@ -358,7 +358,7 @@
 			}
 		],
 		data: {
-		    yAxis: ['2014年', '2015年', '2016年', '2017年', '2018年', '2019年'],
+		    yAxis: ['2014', '2015', '2016', '2017', '2018', '2019'],
 		    series: [
 		        {
 		            name: '',
@@ -373,7 +373,7 @@
 </script>
 
 
-#### 圆柱
+#### cylinder
 <vuep template="#simple_4"></vuep>
 
 <script v-pre type="text/x-template" id="simple_4">
@@ -399,14 +399,14 @@
     data () {
       return {
         data: {
-            xAxis: ['2014年', '2015年', '2016年', '2017年', '2018年', '2019年'],
+            xAxis: ['2014', '2015', '2016', '2017', '2018', '2019'],
             series: [
                 {
-                    name: '2018年',
+                    name: '2018',
                     data: [22, 33, 28, 36, 28, 35]
                 },
                 {
-                    name: '2019年',
+                    name: '2019',
                     data: [28, 36, 28, 35, 22, 33]
                 }
             ]
@@ -417,7 +417,7 @@
 </script>
 </script>
 
-#### 菱柱
+#### Rhombic pillar
 <vuep template="#simple_41"></vuep>
 
 <script v-pre type="text/x-template" id="simple_41">
@@ -445,14 +445,14 @@
     data () {
       return {
         data: {
-            xAxis: ['2014年', '2015年', '2016年', '2017年', '2018年', '2019年'],
+            xAxis: ['2014', '2015', '2016', '2017', '2018', '2019'],
             series: [
                 {
-                    name: '2018年',
+                    name: '2018',
                     data: [22, 33, 28, 36, 28, 35]
                 },
                 {
-                    name: '2019年',
+                    name: '2019',
                     data: [28, 36, 28, 35, 22, 33]
                 }
             ]
@@ -464,7 +464,7 @@
 </script>
 
 
-#### data 数据
+#### data
 
 | Data Item             | Description                | Type   | Remarks                                   |
 | --------------------- | -------------------------- | ------ | ----------------------------------------- |
@@ -474,7 +474,7 @@
 | data.series[i].type   | Series type                | string | Specify 'line' to display data as a line chart (optional) |
 | data.series[i].data   | Data array in the series    | array  | Required                                  |
 
-#### config 配置项
+#### config
 
 | Configuration Item | Description | Type | Remarks |
 | ------------------ | ----------- | ---- | ------- |

@@ -1,6 +1,6 @@
-# 饼图
+# pie
 
-#### 深色底示例
+#### dark example
 <vuep template="#simple-pie_dark"></vuep>
 
 <script v-pre type="text/x-template" id="simple-pie_dark">
@@ -20,12 +20,12 @@
     data () {
       return {
         pieData: [
-            { name: 'A类', value: 5 },
-            { name: 'B类', value: 5 },
-            { name: 'C类', value: 30 },
-            { name: 'D类', value: 20 },
-            { name: 'E类', value: 10 },
-            { name: 'F类', value: 2 }
+            { name: 'A', value: 5 },
+            { name: 'B', value: 5 },
+            { name: 'C', value: 30 },
+            { name: 'D', value: 20 },
+            { name: 'E', value: 10 },
+            { name: 'F', value: 2 }
         ]
       }
     }
@@ -33,7 +33,7 @@
 </script>
 </script>
 
-#### 白底示例
+#### white example
 <vuep template="#simple-pie"></vuep>
 
 <script v-pre type="text/x-template" id="simple-pie">
@@ -51,12 +51,12 @@
     data () {
       return {
         pieData: [
-            { name: 'A类', value: 5 },
-            { name: 'B类', value: 5 },
-            { name: 'C类', value: 30 },
-            { name: 'D类', value: 20 },
-            { name: 'E类', value: 10 },
-            { name: 'F类', value: 2 }
+            { name: 'A', value: 5 },
+            { name: 'B', value: 5 },
+            { name: 'C', value: 30 },
+            { name: 'D', value: 20 },
+            { name: 'E', value: 10 },
+            { name: 'F', value: 2 }
         ]
       }
     }
@@ -66,7 +66,7 @@
 
 
 
-#### 圆环图示例
+#### circus-diagram example
 <vuep template="#simple-pie_1"></vuep>
 <script v-pre type="text/x-template" id="simple-pie_1">
 <template>
@@ -74,7 +74,7 @@
 		<e-pie
 			:data="pieData"
 			:config="{
-				title: '总个数\n300',
+				title: 'total\n300',
 				type: 'ring'
 			}"
 			style="width: 400px;height: 400px;"
@@ -93,12 +93,12 @@
     data () {
       return {
         pieData: [
-            { name: 'A类', value: 5 },
-            { name: 'B类', value: 5 },
-            { name: 'C类', value: 30 },
-            { name: 'D类', value: 20 },
-            { name: 'E类', value: 10 },
-            { name: 'F类', value: 2 }
+            { name: 'A', value: 5 },
+            { name: 'B', value: 5 },
+            { name: 'C', value: 30 },
+            { name: 'D', value: 20 },
+            { name: 'E', value: 10 },
+            { name: 'F', value: 2 }
         ]
       }
     }
@@ -107,7 +107,7 @@
 </script>
 
 
-#### 玫瑰图示例
+#### rose-chart example
 <vuep template="#simple-pie_2"></vuep>
 <script v-pre type="text/x-template" id="simple-pie_2">
 <template>
@@ -133,12 +133,12 @@
     data () {
       return {
         pieData: [
-            { name: 'A类', value: 5 },
-            { name: 'B类', value: 5 },
-            { name: 'C类', value: 30 },
-            { name: 'D类', value: 20 },
-            { name: 'E类', value: 10 },
-            { name: 'F类', value: 2 }
+            { name: 'A', value: 5 },
+            { name: 'B', value: 5 },
+            { name: 'C', value: 30 },
+            { name: 'D', value: 20 },
+            { name: 'E', value: 10 },
+            { name: 'F', value: 2 }
         ]
       }
     }
@@ -146,7 +146,7 @@
 </script>
 </script>
 
-#### 横向图例
+#### Horizontal legend
 <vuep template="#simple-pie_tl"></vuep>
 <script v-pre type="text/x-template" id="simple-pie_tl">
 <template>
@@ -166,12 +166,12 @@
     data () {
       return {
         pieData: [
-             { name: 'A类', value: 5 },
-            { name: 'B类', value: 5 },
-            { name: 'C类', value: 30 },
-            { name: 'D类', value: 20 },
-            { name: 'E类', value: 10 },
-            { name: 'F类', value: 2 }
+             { name: 'A', value: 5 },
+            { name: 'B', value: 5 },
+            { name: 'C', value: 30 },
+            { name: 'D', value: 20 },
+            { name: 'E', value: 10 },
+            { name: 'F', value: 2 }
         ]
       }
     }
@@ -180,7 +180,7 @@
 </script>
 
 
-#### 纵向图例
+#### Vertical Legend
 <vuep template="#simple-pie_tl2"></vuep>
 <script v-pre type="text/x-template" id="simple-pie_tl2">
 <template>
@@ -201,12 +201,12 @@
     data () {
       return {
         pieData: [
-             { name: 'A类', value: 5 },
-            { name: 'B类', value: 5 },
-            { name: 'C类', value: 30 },
-            { name: 'D类', value: 20 },
-            { name: 'E类', value: 10 },
-            { name: 'F类', value: 2 }
+             { name: 'A', value: 5 },
+            { name: 'B', value: 5 },
+            { name: 'C', value: 30 },
+            { name: 'D', value: 20 },
+            { name: 'E', value: 10 },
+            { name: 'F', value: 2 }
         ]
       }
     }
@@ -214,7 +214,7 @@
 </script>
 </script>
 
-#### 图例格式化 （简单）
+#### Legend formatting (simple)
 <vuep template="#simple-pie_tlgsh"></vuep>
 <script v-pre type="text/x-template" id="simple-pie_tlgsh">
 <template>
@@ -236,8 +236,8 @@
     data () {
       return {
 	     pieData1: [
-		    { name: 'A类', value: 1, legendName: 'A类: 1个'},
-		    { name: 'B类', value: 9, legendName: 'B类: 9个'}
+		    { name: 'A', value: 1, legendName: 'A类: 1'},
+		    { name: 'B', value: 9, legendName: 'B类: 9'}
 	    ]
 		
       }
@@ -247,7 +247,7 @@
 </script>
 
 
-#### 图例格式化 (复杂可自定义)
+#### Legend formatting (complex and customizable)
 <vuep template="#simple-pie_tlgsh1"></vuep>
 <script v-pre type="text/x-template" id="simple-pie_tlgsh1">
 <template>
@@ -278,11 +278,11 @@
     data () {
       return {
         pieData2: [
-            { name: 'A类', value: 10, legendName: '{name|A类} {value|10个} 10%' },
-			{ name: 'B类', value: 50, legendName: '{name|B类} {value|50个} 50%' },
-			{ name: 'C类', value: 20, legendName: '{name|C类} {value|20个} 20%' },
-			{ name: 'D类', value: 10, legendName: '{name|D类} {value|10个} 10%' },
-			{ name: 'E类', value: 10, legendName: '{name|E类} {value|10个} 10%' },
+            { name: 'A', value: 10, legendName: '{name|A类} {value|10} 10%' },
+			{ name: 'B', value: 50, legendName: '{name|B类} {value|50} 50%' },
+			{ name: 'C', value: 20, legendName: '{name|C类} {value|20} 20%' },
+			{ name: 'D', value: 10, legendName: '{name|D类} {value|10} 10%' },
+			{ name: 'E', value: 10, legendName: '{name|E类} {value|10} 10%' },
         ],
 		
       }
@@ -291,7 +291,7 @@
 </script>
 </script>
 
-#### 标签格式化 （简单）
+#### Label formatting (simple)
 <vuep template="#simple-pie_bq1"></vuep>
 <script v-pre type="text/x-template" id="simple-pie_bq1">
 <template>
@@ -299,7 +299,7 @@
 		<e-pie
 			:data="pieData"
 			:config="{
-				labelFormatter: '{b}: {c}个 {d}%'
+				labelFormatter: '{b}: {c} {d}%'
 			}"
 			style="width: 500px;height: 300px;"
 		></e-pie>
@@ -311,12 +311,12 @@
     data () {
       return {
         pieData: [
-           { name: 'A类', value: 5 },
-           { name: 'B类', value: 5 },
-           { name: 'C类', value: 30 },
-           { name: 'D类', value: 20 },
-           { name: 'E类', value: 10 },
-           { name: 'F类', value: 2 }
+           { name: 'A', value: 5 },
+           { name: 'B', value: 5 },
+           { name: 'C', value: 30 },
+           { name: 'D', value: 20 },
+           { name: 'E', value: 10 },
+           { name: 'F', value: 2 }
         ]
       }
     }
@@ -325,7 +325,7 @@
 </script>
 
 
-#### 标签格式化 （复杂）
+#### Label formatting (complex)
 <vuep template="#simple-pie_bq"></vuep>
 <script v-pre type="text/x-template" id="simple-pie_bq">
 <template>
@@ -334,7 +334,7 @@
 			:data="pieData"
 			:config="{
 				labelFormatter: function(v) {
-					return v.name + ':' + v.value + '个';
+					return v.name + ':' + v.value + '';
 				}
 			}"
 			style="width: 500px;height: 300px;"
@@ -347,12 +347,12 @@
     data () {
       return {
         pieData: [
-           { name: 'A类', value: 5 },
-           { name: 'B类', value: 5 },
-           { name: 'C类', value: 30 },
-           { name: 'D类', value: 20 },
-           { name: 'E类', value: 10 },
-           { name: 'F类', value: 2 }
+           { name: 'A', value: 5 },
+           { name: 'B', value: 5 },
+           { name: 'C', value: 30 },
+           { name: 'D', value: 20 },
+           { name: 'E', value: 10 },
+           { name: 'F', value: 2 }
         ]
       }
     }
@@ -360,7 +360,7 @@
 </script>
 </script>
 
-#### data 数据
+#### data
 
 | Field | Description | Type | Remarks |
 | --- | --- | --- | --- |
@@ -368,7 +368,7 @@
 | data[i].value | Data value | number | Required. |
 | data[i].legendName | Name of the legend | Optional |
 
-#### config 配置项
+#### config
 
 | Option | Description | Type | Remarks |
 | --- | --- | --- | --- |

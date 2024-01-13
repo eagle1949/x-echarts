@@ -1,6 +1,6 @@
-# 折线图
+# line
 
-#### 深色示例
+#### dark example
 
 <vuep template="#simple"></vuep>
 
@@ -25,14 +25,14 @@
     data () {
       return {
         data: {
-            xAxis: ['2014年', '2015年', '2016年', '2017年', '2018年', '2019年'],
+            xAxis: ['2014', '2015', '2016', '2017', '2018', '2019'],
             series: [
                 {
-                    name: '2018年',
+                    name: '2018',
                     data: [22, 33, 28, 36, 28, 35]
                 },
                 {
-                    name: '2019年',
+                    name: '2019',
                     data: [28, 36, 28, 35, 22, 33]
                 }
             ]
@@ -43,7 +43,7 @@
 </script>
 </script>
 
-#### 白底示例
+#### white example
 
 <vuep template="#simple_1"></vuep>
 
@@ -68,14 +68,14 @@
     data () {
       return {
         data: {
-            xAxis: ['2014年', '2015年', '2016年', '2017年', '2018年', '2019年'],
+            xAxis: ['2014', '2015', '2016', '2017', '2018', '2019'],
             series: [
                 {
-                    name: '2018年',
+                    name: '2018',
                     data: [20, 33, 28, 36, 28, 35]
                 },
                 {
-                    name: '2019年',
+                    name: '2019',
                     data: [28, 36, 28, 30, 22, 33]
                 }
             ]
@@ -86,7 +86,7 @@
 </script>
 </script>
 
-#### 线柱混合
+#### line-column-mixing
 
 <vuep template="#simple_2"></vuep>
 
@@ -103,7 +103,7 @@
     data () {
       return {
         data: {
-            xAxis: ['2014年', '2015年', '2016年', '2017年', '2018年', '2019年'],
+            xAxis: ['2014', '2015', '2016', '2017', '2018', '2019'],
             series: [
                 {
                     name: '均值',
@@ -111,11 +111,11 @@
                     data: [2, 1, 2, 4, 5, 3]
                 },
                 {
-                    name: '2018年',
+                    name: '2018',
                     data: [2.5, 1.5, 3, 4, 5.5, 3.5]
                 },
                 {
-                    name: '2019年',
+                    name: '2019',
                     data: [1.5, 0.5, 1, 4, 4.8, 2.5]
                 }
             ]
@@ -126,7 +126,7 @@
 </script>
 </script>
 
-#### 标准线
+#### standard-line
 
 <vuep template="#simple_3"></vuep>
 
@@ -148,14 +148,14 @@
     data () {
       return {
         data: {
-            xAxis: ['2014年', '2015年', '2016年', '2017年', '2018年', '2019年'],
+            xAxis: ['2014', '2015', '2016', '2017', '2018', '2019'],
             series: [
                 {
-                    name: '2018年',
+                    name: '2018',
                     data: [2.5, 1.5, 3, 4, 5.5, 3.5]
                 },
                 {
-                    name: '2019年',
+                    name: '2019',
                     data: [1.5, 0.5, 1, 4, 4.8, 2.5]
                 }
             ]
@@ -177,7 +177,7 @@
 </script>
 </script>
 
-#### data 数据
+#### data
 
 | Data Item             | Description                | Type   | Remarks                                   |
 | --------------------- | -------------------------- | ------ | ----------------------------------------- |
@@ -187,11 +187,11 @@
 | data.series[i].type   | Series type                | string | Specify 'bar' to display data as bars (optional) |
 | data.series[i].data   | Data array in the series    | array  | Required                                  |
 
-#### config 配置项
+#### config
 
 | Configuration Item | Description                            | Type          | Remarks                                                                                                        |
 | ------------------ | -------------------------------------- | ------------- | -------------------------------------------------------------------------------------------------------------- |
-| color              | Color                                  | array, string | Default color scheme is used if not specified. Specify colors as an array like ["#f00", "#00f"], or use predefined color schemes like "waterGradesColor" [see reference](/color). |
+| color              | Color                                  | array, string | Default color scheme is used if not specified. Specify colors as an array like ["#f00", "#00f"] |
 | showFillArea       | Whether to display fill color           | boolean       | Default is false                                                                                               |
 | showLabel          | Whether to display value labels         | boolean       | Default is false                                                                                               |
 | unit               | Unit for y-axis values                  | string        | Default is not displayed                                                                                       |

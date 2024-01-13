@@ -5,9 +5,9 @@
  * @LastEditTime : 2020-01-20 17:55:16
  * @Description: 
  -->
-# 通用
+# common
 
-#### 示例
+#### example
 <vuep template="#simple"></vuep>
 
 <script v-pre type="text/x-template" id="simple">
@@ -44,7 +44,8 @@
 </script>
 
 
-## 配置
+# config
+
 | Option | Description | Type | Remarks |
 | --- | --- | --- | --- |
 | option | Replace default ECharts configuration | object | - |

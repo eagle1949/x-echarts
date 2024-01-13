@@ -1,7 +1,7 @@
-# 词云
+# wordcloud
 
 
-#### 样式1
+#### style1
 
 <vuep template="#simple"></vuep>
 
@@ -22,63 +22,63 @@
       return {
         data: [
                 {
-                    name: '供应商01',
+                    name: 'supplier01',
                     value: 200
                 },
                 {
-                    name: '供应商02',
+                    name: 'supplier02',
                     value: 181
                 },
                 {
-                    name: '供应商03',
+                    name: 'supplier03',
                     value: 386
                 },
                 {
-                    name: '供应商04',
+                    name: 'supplier04',
                     value: 155
                 },
                 {
-                    name: '供应商05',
+                    name: 'supplier05',
                     value: 467
                 },
                 {
-                    name: '供应商06',
+                    name: 'supplier06',
                     value: 244
                 },
                 {
-                    name: '供应商07',
+                    name: 'supplier07',
                     value: 898
                 },
                 {
-                    name: '供应商08',
+                    name: 'supplier08',
                     value: 484
                 },
                 {
-                    name: '供应商09',
+                    name: 'supplier09',
                     value: 112
                 },
                 {
-                    name: '供应商10',
+                    name: 'supplier10',
                     value: 465
                 },
                 {
-                    name: '供应商11',
+                    name: 'supplier11',
                     value: 447
                 },
                 {
-                    name: '供应商12',
+                    name: 'supplier12',
                     value: 582
                 },
                 {
-                    name: '供应商13',
+                    name: 'supplier13',
                     value: 555
                 },
                 {
-                    name: '供应商14',
+                    name: 'supplier14',
                     value: 550
                 },
                 {
-                    name: '供应商15',
+                    name: 'supplier15',
                     value: 462
                 }
             ]
@@ -90,7 +90,7 @@
 
 
 
-#### 样式2
+#### style2
 
 <vuep template="#simple1"></vuep>
 
@@ -111,63 +111,63 @@
       return {
         data: [
                 {
-                    name: '供应商01',
+                    name: 'supplier01',
                     value: 200
                 },
                 {
-                    name: '供应商02',
+                    name: 'supplier02',
                     value: 181
                 },
                 {
-                    name: '供应商03',
+                    name: 'supplier03',
                     value: 386
                 },
                 {
-                    name: '供应商04',
+                    name: 'supplier04',
                     value: 155
                 },
                 {
-                    name: '供应商05',
+                    name: 'supplier05',
                     value: 467
                 },
                 {
-                    name: '供应商06',
+                    name: 'supplier06',
                     value: 244
                 },
                 {
-                    name: '供应商07',
+                    name: 'supplier07',
                     value: 898
                 },
                 {
-                    name: '供应商08',
+                    name: 'supplier08',
                     value: 484
                 },
                 {
-                    name: '供应商09',
+                    name: 'supplier09',
                     value: 112
                 },
                 {
-                    name: '供应商10',
+                    name: 'supplier10',
                     value: 465
                 },
                 {
-                    name: '供应商11',
+                    name: 'supplier11',
                     value: 447
                 },
                 {
-                    name: '供应商12',
+                    name: 'supplier12',
                     value: 582
                 },
                 {
-                    name: '供应商13',
+                    name: 'supplier13',
                     value: 555
                 },
                 {
-                    name: '供应商14',
+                    name: 'supplier14',
                     value: 550
                 },
                 {
-                    name: '供应商15',
+                    name: 'supplier15',
                     value: 462
                 }
             ]
@@ -179,14 +179,14 @@
 
 
 
-#### data 数据
+#### data
 
 | Data Property | Description | Type | Remarks |
 | --- | --- | --- | --- |
 | data[i].name | Name of the data item | string | Required |
 | data[i].value | Data value | number | Required |
 
-#### config 配置项
+#### config
 
 | Configuration Option | Description | Type | Remarks |
 | --- | --- | --- | --- |

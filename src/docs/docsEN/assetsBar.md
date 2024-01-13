@@ -1,6 +1,6 @@
-# 资产建设条纹图
+# 资产建设stripeBar
 
-#### 示例
+#### example
 <vuep template="#simple"></vuep>
 
 <script v-pre type="text/x-template" id="simple">
@@ -69,17 +69,17 @@
 </script>
 </script>
 
-#### data 数据
+#### data
 
-| 数据项 | 简介 | 类型 | 备注 |
+| 数据项 | 简介 | 类型 | remark |
 | --- | --- | --- | --- |
 | data[i].name | 数据项名称 | string | 用于绘制左侧y轴，必须 |
-| data[i].time1 | 统计项目1的年份时间 | number | 必须 |
-| data[i].time2 | 统计项目2的年份时间 | number | 必须 |
+| data[i].time1 | 统计项目1的份时间 | number | 必须 |
+| data[i].time2 | 统计项目2的份时间 | number | 必须 |
 
-#### config 配置项
+#### config
 
-| 配置项 | 简介 | 类型 | 备注 |
+| 配置项 | 简介 | 类型 | remark |
 | --- | --- | --- | --- |
 | color | 颜色 | array | 可选
 | label1 | 统计项目1名称 | string | 默认值 "建设时间" |

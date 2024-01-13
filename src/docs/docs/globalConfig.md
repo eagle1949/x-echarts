@@ -123,8 +123,6 @@
 | IMG_NONE_H   | 无数据图片的高度 | Number  | 默认值 134 |
 | GRID         | 配置直角坐标系边距（作用于折线图、柱状图、堆叠图、热力图）<br/>参照 echarts 的 grid 配置 | Object  | 默认值 <br/>{containLabel: true,top: 50,left: '5%',right: '5%',bottom: '5%'} |
 | EVENTS       | echarts添加监听的事件列表  | array   | 默认值 ['click','dblclick']
-| waterGradesColor | 配置项config.color为'waterGradesColor'指代的颜色  | array   | 默认值 [ '#44c5fd', '#51a5fd', '#73bb31', '#eebd15', '#f88e17', '#ee3b5b']
-| airGradesColor | 配置项config.color为'airGradesColor'指代的颜色  | array   | 默认值 [ '#24bd5d', '#d8bc37', '#f87c12', '#f60000', '#94004b', '#6f001f']
 | TOOLTIP_BG_COLOR | 提示框背景色  | string   | 默认值 '#fff'
 | TOOLTIP_BORDER_COLOR | 提示框边框颜色  | string   | 默认值 '#c8c8c8'
 | TOOLTIP_FONT_COLOR | 提示框文本颜色  | string   | 默认值 '#666'

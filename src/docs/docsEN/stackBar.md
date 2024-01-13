@@ -1,6 +1,6 @@
-# 堆叠图
+# stackBar
 
-#### 示例
+#### example
 <vuep template="#simple"></vuep>
 
 <script v-pre type="text/x-template" id="simple">
@@ -16,7 +16,7 @@
     data () {
       return {
         data: {
-            xAxis: ['2015年', '2016年', '2017年'],
+            xAxis: ['2015', '2016', '2017'],
             series: [
                 { name: 'A', data: [20, 25, 30] },
                 { name: 'B', data: [20, 25, 30] },
@@ -29,7 +29,7 @@
 </script>
 </script>
 
-#### 横向展示
+#### Horizontal display
 <vuep template="#simple_1"></vuep>
 
 <script v-pre type="text/x-template" id="simple_1">
@@ -45,7 +45,7 @@
     data () {
       return {
         data: {
-            yAxis: ['2015年', '2016年', '2017年'],
+            yAxis: ['2015', '2016', '2017'],
             series: [
                 { name: 'A', data: [20, 25, 30] },
                 { name: 'B', data: [20, 25, 30] },
@@ -58,7 +58,7 @@
 </script>
 </script>
 
-#### 象形堆叠图
+#### Pictorial stacking diagram
 <vuep template="#simple_xx"></vuep>
 
 <script v-pre type="text/x-template" id="simple_xx">
@@ -88,7 +88,7 @@
     data () {
       return {
         data: {
-            xAxis: ['2015年', '2016年', '2017年'],
+            xAxis: ['2015', '2016', '2017'],
             series: [
                 { name: 'A', data: [20, 25, 30] },
                 { name: 'B', data: [20, 25, 30] },
@@ -101,7 +101,7 @@
 </script>
 </script>
 
-#### 展示系列之间的包含关系
+#### Show the inclusion relationship between series
 <vuep template="#simple_bhxx"></vuep>
 
 <script v-pre type="text/x-template" id="simple_bhxx">
@@ -133,7 +133,7 @@
     data () {
       return {
         data: {
-            xAxis: ['2015年', '2016年', '2017年'],
+            xAxis: ['2015', '2016', '2017'],
             series: [
                 { name: '总数', data: [20, 25, 30] },
                 { name: '已完成', data: [10, 22, 20] }
@@ -144,10 +144,10 @@
   }
 </script>
 </script>
->备注： <br/>
-包含关系图表系列的顺序需要从大到小，如总数中包含已完成数，则总数在前。
+>remark： <br/>
+The order of the relationship chart series needs to be from large to small. If the total number includes completed numbers, the total number comes first.
 
-#### data 数据
+#### data
 
 | Data Item            | Description                | Type   | Remarks       |
 | -------------------- | -------------------------- | ------ | ------------- |
@@ -157,7 +157,7 @@
 | data.series[i].name  | Series name                | string | Required      |
 | data.series[i].data  | Data array in the series    | array  | Required      |
 
-#### config 配置项
+#### config
 
 | Configuration Item | Description                   | Type   | Remarks                                                        |
 | ------------------ | ----------------------------- | ------ | -------------------------------------------------------------- |

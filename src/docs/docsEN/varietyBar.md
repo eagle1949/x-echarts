@@ -1,6 +1,6 @@
-# 变化排名条纹图
+# 变化排名stripeBar
 
-#### 示例
+#### example
 <vuep template="#simple"></vuep>
 
 <script v-pre type="text/x-template" id="simple">
@@ -70,17 +70,17 @@
 </script>
 </script>
 
-#### data 数据
+#### data
 
-| 数据项 | 简介 | 类型 | 备注 |
+| 数据项 | 简介 | 类型 | remark |
 | --- | --- | --- | --- |
 | data[i].name | 数据项名称 | string | 用于绘制左侧y轴，必须 |
 | data[i].value | 数据值 | number | 必须 |
 | data[i].rank | 序号 | number | 有值时名称前显示序号，可选 |
 
-#### config 配置项
+#### config
 
-| 配置项 | 简介 | 类型 | 备注 |
+| 配置项 | 简介 | 类型 | remark |
 | --- | --- | --- | --- |
 | color | 颜色 | array | 可选， color[0]指定正值条纹颜色， color[1]指定负值条纹颜色， color[2]指定边框颜色 |
 | unit | 数值单位 | string | 默认不显示 |

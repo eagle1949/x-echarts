@@ -1,6 +1,6 @@
-# 桑基图
+# Sankey
 
-#### 示例
+#### example
 <vuep template="#simple"></vuep>
 
 <script v-pre type="text/x-template" id="simple">
@@ -68,7 +68,7 @@
 </script>
 </script>
 
-#### 设置颜色
+#### set color
 <vuep template="#simple_1"></vuep>
 
 <script v-pre type="text/x-template" id="simple_1">
@@ -143,7 +143,7 @@
 </script>
 </script>
 
-#### data 数据
+#### data
 
 | Data Item                        | Description          | Type   | Remarks  |
 | -------------------------------- | -------------------- | ------ | -------- |
@@ -152,7 +152,7 @@
 | data[i].items[i].name            | Data item name       | string | Corresponds to the left-side data item. Required |
 | data[i].items[i].value           | Data value           | number | Corresponds to the data on both sides. Required |
 
-#### config 配置项
+#### config
     
 | Configuration Item | Description                          | Type   | Remarks        |
 | ------------------ | ------------------------------------ | ------ | -------------- |

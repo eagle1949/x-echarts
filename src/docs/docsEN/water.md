@@ -1,4 +1,4 @@
-# 水环境业务示例
+# 水环境业务example
 
 #### 水质分类构成  
 参考说明：[饼图](/pie)
@@ -13,12 +13,12 @@
     data () {
       return {
         data: [
-            { name: 'Ⅰ类', value: 5 },
-            { name: 'Ⅱ类', value: 5 },
-            { name: 'Ⅲ类', value: 30 },
-            { name: 'Ⅳ类', value: 20 },
-            { name: 'Ⅴ类', value: 10 },
-            { name: '劣Ⅴ类', value: 2 }
+            { name: 'Ⅰ', value: 5 },
+            { name: 'Ⅱ', value: 5 },
+            { name: 'Ⅲ', value: 30 },
+            { name: 'Ⅳ', value: 20 },
+            { name: 'Ⅴ', value: 10 },
+            { name: '劣Ⅴ', value: 2 }
         ]
       }
     }
@@ -35,8 +35,8 @@
 		<e-pie
 			:data="pieData"
 			:config="{
-				color: 'waterGradesColor',
-				title: '总个数\n300',
+				
+				title: 'total\n300',
 				type: 'ring'
 			}"
 			style="width: 400px;height: 300px;"
@@ -50,12 +50,12 @@
     data () {
       return {
         pieData: [
-            { name: 'Ⅰ类', value: 5 },
-            { name: 'Ⅱ类', value: 5 },
-            { name: 'Ⅲ类', value: 30 },
-            { name: 'Ⅳ类', value: 20 },
-            { name: 'Ⅴ类', value: 10 },
-            { name: '劣Ⅴ类', value: 2 }
+            { name: 'Ⅰ', value: 5 },
+            { name: 'Ⅱ', value: 5 },
+            { name: 'Ⅲ', value: 30 },
+            { name: 'Ⅳ', value: 20 },
+            { name: 'Ⅴ', value: 10 },
+            { name: '劣Ⅴ', value: 2 }
         ]
       }
     }
@@ -73,7 +73,7 @@
 		<e-pie
 			:data="pieData"
 			:config="{
-				color: 'waterGradesColor',
+				
 				type: 'rose'
 			}"
 			style="width: 400px;height: 300px;"
@@ -87,12 +87,12 @@
     data () {
       return {
         pieData: [
-            { name: 'Ⅰ类', value: 5 },
-            { name: 'Ⅱ类', value: 5 },
-            { name: 'Ⅲ类', value: 30 },
-            { name: 'Ⅳ类', value: 20 },
-            { name: 'Ⅴ类', value: 10 },
-            { name: '劣Ⅴ类', value: 2 }
+            { name: 'Ⅰ', value: 5 },
+            { name: 'Ⅱ', value: 5 },
+            { name: 'Ⅲ', value: 30 },
+            { name: 'Ⅳ', value: 20 },
+            { name: 'Ⅴ', value: 10 },
+            { name: '劣Ⅴ', value: 2 }
         ]
       }
     }
@@ -110,7 +110,7 @@
 		<e-pie
 			:data="pieData"
 			:config="{
-				color: 'waterGradesColor',
+				
 				showLegend: true
 			}"
 			style="width: 500px;height: 300px;"
@@ -123,12 +123,12 @@
     data () {
       return {
         pieData: [
-            { name: 'Ⅰ类', value: 5 },
-            { name: 'Ⅱ类', value: 5 },
-            { name: 'Ⅲ类', value: 30 },
-            { name: 'Ⅳ类', value: 20 },
-            { name: 'Ⅴ类', value: 10 },
-            { name: '劣Ⅴ类', value: 2 }
+            { name: 'Ⅰ', value: 5 },
+            { name: 'Ⅱ', value: 5 },
+            { name: 'Ⅲ', value: 30 },
+            { name: 'Ⅳ', value: 20 },
+            { name: 'Ⅴ', value: 10 },
+            { name: '劣Ⅴ', value: 2 }
         ]
       }
     }
@@ -145,7 +145,7 @@
 		<e-pie
 			:data="pieData"
 			:config="{
-				color: 'waterGradesColor',
+				
 				showLegend: true,
 				legendOrient: 'vertical'
 			}"
@@ -159,12 +159,12 @@
     data () {
       return {
         pieData: [
-            { name: 'Ⅰ类', value: 5 },
-            { name: 'Ⅱ类', value: 5 },
-            { name: 'Ⅲ类', value: 30 },
-            { name: 'Ⅳ类', value: 20 },
-            { name: 'Ⅴ类', value: 10 },
-            { name: '劣Ⅴ类', value: 2 }
+            { name: 'Ⅰ', value: 5 },
+            { name: 'Ⅱ', value: 5 },
+            { name: 'Ⅲ', value: 30 },
+            { name: 'Ⅳ', value: 20 },
+            { name: 'Ⅴ', value: 10 },
+            { name: '劣Ⅴ', value: 2 }
         ]
       }
     }
@@ -191,11 +191,11 @@
     data () {
       return {
         data: [
-            { name: 'Ⅰ~Ⅱ类', value: 10 },
-            { name: 'Ⅲ类', value: 30 },
-            { name: 'Ⅳ类', value: 20 },
-            { name: 'Ⅴ类', value: 10 },
-            { name: '劣Ⅴ类', value: 2 }
+            { name: 'Ⅰ~Ⅱ', value: 10 },
+            { name: 'Ⅲ', value: 30 },
+            { name: 'Ⅳ', value: 20 },
+            { name: 'Ⅴ', value: 10 },
+            { name: '劣Ⅴ', value: 2 }
         ]
       }
     }
@@ -248,14 +248,14 @@
     data () {
       return {
         data: {
-            xAxis: ['2015年', '2016年', '2017年'],
+            xAxis: ['2015', '2016', '2017'],
             series: [
-                { name: 'Ⅰ类', data: [20, 25, 30] },
-                { name: 'Ⅱ类', data: [20, 25, 30] },
-                { name: 'Ⅲ类', data: [60, 50, 30] },
-                { name: 'Ⅳ类', data: [0, 0, 10] },
-                { name: 'Ⅴ类', data: [0, 0, 0] },
-                { name: '劣Ⅴ类', data: [0, 0, 0] },
+                { name: 'Ⅰ', data: [20, 25, 30] },
+                { name: 'Ⅱ', data: [20, 25, 30] },
+                { name: 'Ⅲ', data: [60, 50, 30] },
+                { name: 'Ⅳ', data: [0, 0, 10] },
+                { name: 'Ⅴ', data: [0, 0, 0] },
+                { name: '劣Ⅴ', data: [0, 0, 0] },
             ]
         }
       }
@@ -282,17 +282,17 @@
     data () {
       return {
         data: {
-          xAxis: ['2015年', '2016年', '2017年', '2018年', '2019年'],
+          xAxis: ['2015', '2016', '2017', '2018', '2019'],
           series: [
-              { name: '广州市', data: [1, 2, 3, 4, 5] },
+              { name: 'guangzhou', data: [1, 2, 3, 4, 5] },
               { name: '深圳市', data: [1, 2, 3, 4, 5] },
               { name: '东莞市', data: [1, 6, 3, 4, 5] },
-              { name: '广州市', data: [1, 2, 3, 4, 5] },
-              { name: '广州市', data: [3, 2, 3, 4, 5] },
-              { name: '广州市', data: [3, 2, 3, 4, 5] },
-              { name: '广州市', data: [1, 2, 3, 4, 5] },
-              { name: '广州市', data: [1, 2, 3, 4, 5] },
-              { name: '广州市', data: [1, 2, 3, 4, 5] },
+              { name: 'guangzhou', data: [1, 2, 3, 4, 5] },
+              { name: 'guangzhou', data: [3, 2, 3, 4, 5] },
+              { name: 'guangzhou', data: [3, 2, 3, 4, 5] },
+              { name: 'guangzhou', data: [1, 2, 3, 4, 5] },
+              { name: 'guangzhou', data: [1, 2, 3, 4, 5] },
+              { name: 'guangzhou', data: [1, 2, 3, 4, 5] },
               { name: '中山市', data: [6, 2, 3, 4, 5] }
           ]
         }
@@ -303,7 +303,7 @@
 </script>
 
 #### 水质指数排名
-参考说明：[条纹图](/stripeBar)
+参考说明：[stripeBar](/stripeBar)
 <vuep template="#simple_6"></vuep>
 <script v-pre type="text/x-template" id="simple_6">
 <template>
@@ -340,7 +340,7 @@
 
 
 #### 水质达标率
-参考说明：[仪表盘](/guage)
+参考说明：[guage](/guage)
 <vuep template="#simple_7"></vuep>
 <script v-pre type="text/x-template" id="simple_7">
 <template>
@@ -366,8 +366,8 @@
 </script>
 </script>
 
-#### 水球图
-参考说明：[水球图](/liquidFill)
+#### liquidFill
+参考说明：[liquidFill](/liquidFill)
 <vuep template="#simple_8"></vuep>
 <script v-pre type="text/x-template" id="simple_8">
 <template>
