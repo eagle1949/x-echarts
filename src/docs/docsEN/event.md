@@ -1,12 +1,12 @@
-# 事件
+# Eevent
 
-默认支持以下常用事件，可在全局配置中添加其他echarts支持的事件：
+By default, the following common events are supported, and other events supported by echarts can be added to the global configuration:
 
     'click', 'dblclick'
 
->备注： 事件参数参考[echarts文档](https://echarts.apache.org/zh/api.html#events)
+>Note: Event parameter reference [echarts document](https://echarts.apache.org/en/api.html#events)
  
-#### 示例   
+#### example  
 <vuep template="#simple_1"></vuep>
 <script v-pre type="text/x-template" id="simple_1">
 <template>
@@ -22,18 +22,18 @@
     data () {
       return {
         data: [
-            { name: 'A类', value: 5 },
-            { name: 'B类', value: 5 },
-            { name: 'C类', value: 30 },
-            { name: 'D类', value: 20 },
-            { name: 'E类', value: 10 },
-            { name: 'F类', value: 2 }
+            { name: 'A', value: 5 },
+            { name: 'B', value: 5 },
+            { name: 'C', value: 30 },
+            { name: 'D', value: 20 },
+            { name: 'E', value: 10 },
+            { name: 'F', value: 2 }
         ]
       }
     },
     methods: {
         handleClick(params) {
-            alert(params.name + '占比' + params.value + '%');
+            alert(params.name + ' percent:' + params.value + '%');
         }
     }
   }

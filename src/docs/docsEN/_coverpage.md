@@ -1,6 +1,6 @@
 
 # x-echarts
 
-> 一款基于vue和echarts封装的常用组件
+> A commonly used component based on Vue and Echarts packaging
 
 [Get Started](/intro)

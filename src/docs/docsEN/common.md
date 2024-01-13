@@ -45,16 +45,16 @@
 
 
 ## 配置
-| 配置项 | 简介 | 类型 | 备注 |
+| Option | Description | Type | Remarks |
 | --- | --- | --- | --- |
-| option | 替换echarts默认配置 | object | -
-| show-option | 是否打印echarts的配置项(控制台可以查看) | boolean | false
+| option | Replace default ECharts configuration | object | - |
+| show-option | Whether to print ECharts configuration (viewable in the console) | boolean | false |alse
 
->备注： <br/>
-全局配置及统一样式对通用图表组件的影响说明如下：<br/>
-通用图表自动获取全局配置中的文字样式， 但由于echarts中全局字体样式无法作用在所有字体中， 因此部分自定义配置项中的字体样式需要手动调整。<br/>
-通用图表的坐标轴受坐标轴的统一样式影响， 统一样式优先级低于自定义样式<br/>
-通用图表的图例样式受图例统一样式影响， 统一样式优先级低于自定义样式<br/>
-通用图表的自定义配置项中没有配色时， 取统一配色
+> Remarks: <br/>
+The global configuration and unified styles have the following effects on common chart components: <br/>
+Common charts automatically inherit the text styles from the global configuration. However, due to the limitation of ECharts, the global font style may not be applied to all text elements. Therefore, manual adjustments may be required for font styles in some custom configuration options. <br/>
+The coordinate axes of common charts are influenced by the unified axis styles, with the unified style having a lower priority than custom styles. <br/>
+The legend styles of common charts are influenced by the unified legend styles, with the unified style having a lower priority than custom styles. <br/>
+If a common chart does not have a custom color configuration, it will use the unified color scheme.
 
 

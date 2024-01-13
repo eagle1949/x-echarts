@@ -362,29 +362,29 @@
 
 #### data 数据
 
-| 数据项 | 简介 | 类型 | 备注 |
+| Field | Description | Type | Remarks |
 | --- | --- | --- | --- |
-| data[i].name | 数据项名称 | string | 用于tooltip的显示，legend 的图例筛选，必须 |
-| data[i].value | 数据值 | number | 必须 |
-| data[i].legendName | 图例的名称 | 非必须
+| data[i].name | Name of the data item | string | Used for tooltip display and legend filtering. Required. |
+| data[i].value | Data value | number | Required. |
+| data[i].legendName | Name of the legend | Optional |
 
 #### config 配置项
 
-| 配置项 | 简介 | 类型 | 备注 |
+| Option | Description | Type | Remarks |
 | --- | --- | --- | --- |
-| type | 形态类型 | string | 实心圆circle， 圆环ring，  玫瑰图rose， 默认为实心圆 |
-| color | 颜色 | Array，string | 默认使用常规配色， 指定颜色如["#f00", "#00f"]，  或如"waterGradesColor"指定使用水质等级配色 [参考说明](/color)|
-| showLegend | 是否显示图例 | boolean | 默认为false 不显示 |
-| legendOrient | 图例列表的布局朝向 | string | horizontal横向，vertical纵向，默认为横向 |
-| legendTextStyle | 图例文本样式 | object | 参考[legend. textStyle](https://echarts.apache.org/zh/option.html#legend.textStyle)
-| showLabel | 是否显示线条文字 | boolean | 默认为true |
-| showNullLabel | showLabel为true时有效，是否显示无数据项的线条文字 | boolean | 默认为false |
-| labelFormatter | label及tooltip的格式器 | string/Function |  具体参考[series-pie.label. formatter](https://echarts.apache.org/zh/option.html#series-pie.label.formatter)|
-| isShowInnerShadow | 圆环是否显示内圈阴影图形 | boolean | 默认为true |
-| isShowSplit | 圆环是否有分隔线 | boolean | 默认为false |
-| title | 中间的文字 | string | 默认不显示 |
-| center | 中心 | Array |  |
-| radius | 半径 | number/string/Array |  |
+| type | Type of the chart | string | Supported values: 'circle' for solid circle, 'ring' for ring, 'rose' for rose chart. Default is 'circle'. |
+| color | Color of the chart | Array, string | Default color scheme is used if not specified. Specify colors as an array like ["#f00", "#00f"], or use predefined color schemes like "waterGradesColor" [see reference](/color). |
+| showLegend | Whether to display the legend | boolean | Default is false (not displayed). |
+| legendOrient | Orientation of the legend list | string | Supported values: 'horizontal' for horizontal layout, 'vertical' for vertical layout. Default is 'horizontal'. |
+| legendTextStyle | Text style of the legend | object | Refer to [legend.textStyle](https://echarts.apache.org/zh/option.html#legend.textStyle) for details. |
+| showLabel | Whether to display the line labels | boolean | Default is true. |
+| showNullLabel | Effective when showLabel is true, whether to display line labels for data items with no value | boolean | Default is false. |
+| labelFormatter | Formatter for labels and tooltips | string/Function | See [series-pie.label.formatter](https://echarts.apache.org/zh/option.html#series-pie.label.formatter) for details. |
+| isShowInnerShadow | Whether to display inner shadow for the ring chart | boolean | Default is true. |
+| isShowSplit | Whether to display split lines in the ring chart | boolean | Default is false. |
+| title | Text in the center of the chart | string | Default is not displayed. |
+| center | Center coordinates of the chart | Array | - |
+| radius | Radius of the chart | number/string/Array | - |
 
 
 

@@ -82,22 +82,22 @@
 
 #### data 数据
 
-| 数据项 | 简介 | 类型 | 备注 |
-| --- | --- | --- | --- |
-| data.xAxis | x轴类目数据 | array | 必须 |
-| data.series | 系列数据 | array | 必须 |
-| data.series[i].name | 数据项名称 | string | 必须 |
-| data.series[i].data | 数据数组 | array | 必须 |
+| Data Item            | Description          | Type   | Remarks  |
+| -------------------- | -------------------- | ------ | -------- |
+| data.xAxis           | x-axis category data | array  | Required |
+| data.series          | Series data          | array  | Required |
+| data.series[i].name  | Data item name       | string | Required |
+| data.series[i].data  | Data array           | array  | Required |
 
 #### config 配置项
 
-| 配置项 | 简介 | 类型 | 备注 |
-| --- | --- | --- | --- |
-| type | 类型 | string | 连续 continuous，分段 piecewise 默认为连续 |
-| max | 图例最大值 | number | 连续型热力图中图例颜色对应的最大值，默认数值中的最大值 |
-| min | 图例最小值 | number | 连续型热力图中图例颜色对应的最小值，默认数值中的最小值 |
-| categories | 各分段名称 | Array | 分段型热力图中使用
-| color | 颜色 | array，string | 连续型热力图中默认使用红-绿配色，color[0]为最大值对应颜色|
-| unit | 数值单位 | string | 默认不显示 |
-| showLabel | 是否显示文字 | boolean | 默认显示 |
+| Configuration Item | Description                          | Type    | Remarks                                                                                       |
+| ------------------ | ------------------------------------ | ------- | --------------------------------------------------------------------------------------------- |
+| type               | Type                                 | string  | Continuous (continuous), Piecewise (piecewise). Default is continuous.                        |
+| max                | Maximum value for the legend          | number  | Maximum value for the legend colors in continuous heatmaps. By default, it takes the maximum value from the data. |
+| min                | Minimum value for the legend          | number  | Minimum value for the legend colors in continuous heatmaps. By default, it takes the minimum value from the data. |
+| categories         | Names for each segment                | Array   | Used in piecewise heatmaps.                                                                  |
+| color              | Colors                               | array, string | Default color scheme for continuous heatmaps is red-green. color[0] represents the color for the maximum value. |
+| unit               | Value unit                           | string  | Default is not displayed.                                                                     |
+| showLabel          | Whether to display text labels        | boolean | Default is true.                                                                             |
 

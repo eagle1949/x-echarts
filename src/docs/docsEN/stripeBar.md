@@ -177,17 +177,17 @@
 
 #### data 数据
 
-| 数据项 | 简介 | 类型 | 备注 |
+| Data Property | Description | Type | Remarks |
 | --- | --- | --- | --- |
-| data[i].name | 数据项名称 | string | 用于绘制左侧y轴，必须 |
-| data[i].value | 数据值 | number | 必须 |
-| data[i].rank | 序号 | number | 有值时名称前显示序号，可选 |
+| data[i].name | Name of the data item | string | Used to draw the left y-axis, required |
+| data[i].value | Data value | number | Required |
+| data[i].rank | Rank or serial number | number | Optional, displayed before the name when provided |
 
 #### config 配置项
 
-| 配置项 | 简介 | 类型 | 备注 |
+| Configuration Option | Description | Type | Remarks |
 | --- | --- | --- | --- |
-| color | 颜色 | array | 可选， color[0]指定内层条纹填充色， color[1]指定外层条纹填充色 |
-| showLabel | 是否显示标签 | boolean | 默认为true |
-| unit | 数值单位 | string | 默认不显示 |
-| pictorial | 象形条纹图图标 | string | 默认无，有则按象形条纹图样式展示，否则按默认条纹图展示  参考[series-pictorialBar. symbol](https://echarts.apache.org/zh/option.html#series-pictorialBar.symbol)|
+| color | Color | array | Optional. `color[0]` specifies the fill color for the inner stripe, `color[1]` specifies the fill color for the outer stripe. |
+| showLabel | Whether to display labels | boolean | Default is `true`. |
+| unit | Value unit | string | Default is not displayed. |
+| pictorial | Pictorial stripe chart symbol | string | Default is none. If provided, the chart is displayed with the pictorial stripe style. Otherwise, it is displayed with the default stripe style. Refer to [series-pictorialBar.symbol](https://echarts.apache.org/zh/option.html#series-pictorialBar.symbol) for more details. |

@@ -149,19 +149,19 @@
 
 #### data 数据
 
-| 数据项 | 简介 | 类型 | 备注 |
-| --- | --- | --- | --- |
-| data.xAxis | x轴类目数据 | array | data.xAxis与data.yAxis 二选一 |
-| data.yAxis | y轴类目数据 | array | data.xAxis与data.yAxis 二选一 |
-| data.series | 系列数据 | array | 必须 |
-| data.series[i].name | 系列名称 | string | 必须 |
-| data.series[i].data | 系列中的数据内容数组 | array | 必须 |
+| Data Item            | Description                | Type   | Remarks       |
+| -------------------- | -------------------------- | ------ | ------------- |
+| data.xAxis           | x-axis category data       | array  | data.xAxis or data.yAxis, choose one |
+| data.yAxis           | y-axis category data       | array  | data.xAxis or data.yAxis, choose one |
+| data.series          | Series data                | array  | Required      |
+| data.series[i].name  | Series name                | string | Required      |
+| data.series[i].data  | Data array in the series    | array  | Required      |
 
 #### config 配置项
 
-| 配置项 | 简介 | 类型 | 备注 |
-| --- | --- | --- | --- |
-| color | 颜色 | array，string | 默认使用常规配色， 指定颜色如["#f00", "#00f"]|
-| unit | 数值轴单位 | string | 默认不展示  图表为纵向时显示在y轴末端，横向时显示在x轴末端。|
-| pictorial | 象形图标 | string | 默认不展示 圆柱使用'circle'，菱柱使用'diamond'。 注：设置象形图标时图例不可选，暂不支持横向展示。|
-| barWidth | 柱子的宽度 | number | 默认值 20。|
+| Configuration Item | Description                   | Type   | Remarks                                                        |
+| ------------------ | ----------------------------- | ------ | -------------------------------------------------------------- |
+| color              | Color                         | array, string | Default color scheme is used. Specify colors as an array like ["#f00", "#00f"]. |
+| unit               | Value axis unit               | string | Default is not displayed. For vertical charts, it is displayed at the end of the y-axis. For horizontal charts, it is displayed at the end of the x-axis. |
+| pictorial          | Pictorial symbol              | string | Default is not displayed. For cylinders, use 'circle'; for prisms, use 'diamond'. Note: When setting pictorial symbols, legends cannot be selected, and horizontal display is not supported. |
+| barWidth           | Width of the bars             | number | Default value is 20.                                          |

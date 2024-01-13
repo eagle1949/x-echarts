@@ -466,26 +466,26 @@
 
 #### data 数据
 
-| 数据项 | 简介 | 类型 | 备注 |
-| --- | --- | --- | --- |
-| data.xAxis | x轴类目数据 | array | 必须 |
-| data.series | 系列数据 | array | 必须 |
-| data.series[i].name | 系列名称 | string | 必须 |
-| data.series[i].type | 系列类型 | string | 设置为'line'时指定对应数据按折线展示 可选  |
-| data.series[i].data | 系列中的数据内容数组 | array | 必须 |
+| Data Item             | Description                | Type   | Remarks                                   |
+| --------------------- | -------------------------- | ------ | ----------------------------------------- |
+| data.xAxis            | x-axis category data       | array  | Required                                  |
+| data.series           | Series data                | array  | Required                                  |
+| data.series[i].name   | Series name                | string | Required                                  |
+| data.series[i].type   | Series type                | string | Specify 'line' to display data as a line chart (optional) |
+| data.series[i].data   | Data array in the series    | array  | Required                                  |
 
 #### config 配置项
 
-| 配置项 | 简介 | 类型 | 备注 |
-| --- | --- | --- | --- |
-| color | 颜色 | array，string | 默认使用常规配色， 指定颜色如["#f00", "#00f"]， 圆柱和棱柱图只支持16进制颜色和rgb颜色|
-| showLabel | 是否显示数值文字 | boolean | 默认为false |
-| unit | y轴数值单位 | string | 默认不显示 |
-| barWidth | 柱子的宽度 | number | 默认值 20 |
-| topRing | 柱子的顶部是否圆角 | boolean | 默认值 false  只支持2d |
-| rightRing | 柱子的右侧顶部是否圆角 | boolean | 默认值 false  只支持2d |
-| tbRing | 顶部，底部是否圆角 | boolean | 默认值 false  只支持2d |
-| pictorial | 象形图标 | string | 默认不展示  圆柱使用'circle'，菱柱使用'diamond'。 注：设置象形图标时图例不可选，暂不支持横向展示|
-| symbolOffsetXArr | 各系列象形图标横向偏移距离 | array | 当象形图标和柱子没有对齐时，可手动调整 如：['-120%', 0, '120%']表示第1,2,3个系列的图标横向偏移距离|
-| type | 模拟立体柱状图使用 | string | 值为simulated3D展示模拟立体柱状图 |
-| customColor | 模拟立体柱状图使用 | array | 指定左侧、右侧、顶部三个面的颜色 如：[{left: '#4d76eb'', right: '#4d76eb'', top: '#4d76eb''}] |
+| Configuration Item | Description | Type | Remarks |
+| ------------------ | ----------- | ---- | ------- |
+| color              | Color       | array, string | Default color scheme is used. Specify colors as an array like ["#f00", "#00f"]. Cylinder and prism charts only support hexadecimal and RGB colors. |
+| showLabel          | Whether to display value labels | boolean | Default is false. |
+| unit               | Unit for y-axis values | string | Default is not displayed. |
+| barWidth           | Width of the bars | number | Default value is 20. |
+| topRing            | Whether to have rounded tops of the bars | boolean | Default is false. Only supported in 2D. |
+| rightRing          | Whether to have rounded tops on the right side of the bars | boolean | Default is false. Only supported in 2D. |
+| tbRing             | Whether to have rounded tops and bottoms of the bars | boolean | Default is false. Only supported in 2D. |
+| pictorial          | Pictorial symbol | string | Default is not displayed. For cylinders, use 'circle'; for prisms, use 'diamond'. Note: When setting pictorial symbols, legends cannot be selected, and horizontal display is not supported. |
+| symbolOffsetXArr   | Horizontal offset of pictorial symbols for each series | array | Manually adjust the horizontal offset when pictorial symbols and bars are not aligned. Example: ['-120%', 0, '120%'] represents the horizontal offset distances for the 1st, 2nd, and 3rd series. |
+| type               | Simulated 3D bar chart | string | Use 'simulated3D' to display a simulated 3D bar chart. |
+| customColor        | Simulated 3D bar chart | array | Specify colors for the left, right, and top faces. Example: [{left: '#4d76eb', right: '#4d76eb', top: '#4d76eb'}]. |

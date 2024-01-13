@@ -179,25 +179,25 @@
 
 #### data 数据
 
-| 数据项              | 简介                 | 类型   | 备注                                     |
-| ------------------- | -------------------- | ------ | ---------------------------------------- |
-| data.xAxis          | x 轴类目数据         | array  | 必须                                     |
-| data.series         | 系列数据             | array  | 必须                                     |
-| data.series[i].name | 系列名称             | string | 必须                                     |
-| data.series[i].type | 系列类型             | string | 设置为'bar'时指定对应数据按柱形展示 可选 |
-| data.series[i].data | 系列中的数据内容数组 | array  | 必须                                     |
+| Data Item             | Description                | Type   | Remarks                                   |
+| --------------------- | -------------------------- | ------ | ----------------------------------------- |
+| data.xAxis            | x-axis category data       | array  | Required                                  |
+| data.series           | Series data                | array  | Required                                  |
+| data.series[i].name   | Series name                | string | Required                                  |
+| data.series[i].type   | Series type                | string | Specify 'bar' to display data as bars (optional) |
+| data.series[i].data   | Data array in the series    | array  | Required                                  |
 
 #### config 配置项
 
-| 配置项            | 简介             | 类型          | 备注                                                                                                          |
-| ----------------- | ---------------- | ------------- | ------------------------------------------------------------------------------------------------------------- |
-| color             | 颜色             | array，string | 默认使用常规配色， 指定颜色如["#f00", "#00f"]， 或如"waterGradesColor"指定使用水质等级配色 [参考说明](/color) |
-| showFillArea      | 是否显示填充颜色 | boolean       | 默认为 false                                                                                                  |
-| showLabel         | 是否显示数值文字 | boolean       | 默认为 false                                                                                                  |
-| unit              | y 轴数值单位     | string        | 默认不显示                                                                                                    |
-| connectNulls      | 是否连接空数据   | Boolean       | 默认为 true                                                                                                   |
-| smooth            | 是否为平滑曲线   | Boolean       | 默认为 true                                                                                                   |
-| markLine          | 标准线数据       | array         | 默认不显示标准线 可选                                                                                         |
-| markLine[i].name  | 标准线名称       | string        |                                                                                                               |
-| markLine[i].value | 标准线数值       | number        |                                                                                                               |
-| markLine[i].color | 标准线颜色       | 默认红色      |                                                                                                               |
+| Configuration Item | Description                            | Type          | Remarks                                                                                                        |
+| ------------------ | -------------------------------------- | ------------- | -------------------------------------------------------------------------------------------------------------- |
+| color              | Color                                  | array, string | Default color scheme is used if not specified. Specify colors as an array like ["#f00", "#00f"], or use predefined color schemes like "waterGradesColor" [see reference](/color). |
+| showFillArea       | Whether to display fill color           | boolean       | Default is false                                                                                               |
+| showLabel          | Whether to display value labels         | boolean       | Default is false                                                                                               |
+| unit               | Unit for y-axis values                  | string        | Default is not displayed                                                                                       |
+| connectNulls       | Whether to connect null data            | Boolean       | Default is true                                                                                                |
+| smooth             | Whether to use smooth curve             | Boolean       | Default is true                                                                                                |
+| markLine           | Mark line data                          | array         | Default is not displayed. Optional                                                                             |
+| markLine[i].name   | Mark line name                          | string        |                                                                                                                |
+| markLine[i].value  | Mark line value                         | number        |                                                                                                                |
+| markLine[i].color  | Mark line color (default is red)        | -             |                                                                                                   |

@@ -199,19 +199,19 @@
 
 #### data 数据
 
-| 数据项 | 简介 | 类型 | 备注 |
-| --- | --- | --- | --- |
-| data.value | 水球图比例 | number | 必须 |
+| Data Item    | Description        | Type   | Remarks  |
+| ------------ | ------------------ | ------ | -------- |
+| data.value   | Water level ratio  | number | Required |
 
 #### config 配置项
 
-| 配置项 | 简介 | 类型 | 备注 |
-| --- | --- | --- | --- |
-| itemColor | 水球图颜色 | string | -
-| labelColor | 文字颜色 | string | -
-| shadowColor | 阴影背景颜色 | string | -
-| backgroundColor | 纯色背景颜色 | string | 优先级高于阴影背景颜色
-| borderColor | 轮廓颜色 | string | 默认不显示
-| borderDistance | 轮廓间距 | number | 默认为8
-| itemNum | 水面个数 | number | 默认为1
-| scale | 水面缩放比例 | number | 默认为1 接近100%的值水面太高不美观，可以设置缩小一点
+| Configuration Item | Description           | Type   | Remarks                                        |
+| ------------------ | --------------------- | ------ | ---------------------------------------------- |
+| itemColor          | Water item color      | string | -                                              |
+| labelColor         | Text color            | string | -                                              |
+| shadowColor        | Shadow background color | string | -                                              |
+| backgroundColor    | Solid background color | string | Takes priority over shadow background color     |
+| borderColor        | Outline color         | string | Default is not displayed                        |
+| borderDistance     | Outline distance      | number | Default is 8                                    |
+| itemNum            | Number of water items | number | Default is 1                                    |
+| scale              | Water scale ratio     | number | Default is 1. A value close to 100% may not be visually appealing. You can set a smaller value to reduce the height of the water surface. |

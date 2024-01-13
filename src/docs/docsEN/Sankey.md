@@ -145,16 +145,16 @@
 
 #### data 数据
 
-| 数据项 | 简介 | 类型 | 备注 |
-| --- | --- | --- | --- |
-| data[i].name | 数据项名称 | string | 对应右侧数据项 必须 |
-| data[i].items | 数据数组 | array | 对应左侧数据 必须 |
-| data[i].items[i].name | 数据项名称 | string | 对应左侧数据项 必须 |
-| data[i].items[i].value | 数据值 | number | 两侧对应的数据 必须 |
+| Data Item                        | Description          | Type   | Remarks  |
+| -------------------------------- | -------------------- | ------ | -------- |
+| data[i].name                     | Data item name       | string | Corresponds to the right-side data item. Required |
+| data[i].items                    | Data array           | array  | Corresponds to the left-side data. Required |
+| data[i].items[i].name            | Data item name       | string | Corresponds to the left-side data item. Required |
+| data[i].items[i].value           | Data value           | number | Corresponds to the data on both sides. Required |
 
 #### config 配置项
     
-| 配置项 | 简介 | 类型 | 备注 |
-| --- | --- | --- | --- |
-| leftColor | 颜色 | array | 左侧项颜色 |
-| rightColor | 颜色 | array | 右侧项颜色 |
+| Configuration Item | Description                          | Type   | Remarks        |
+| ------------------ | ------------------------------------ | ------ | -------------- |
+| leftColor          | Color                                | array  | Color for the left-side items |
+| rightColor         | Color                                | array  | Color for the right-side items |

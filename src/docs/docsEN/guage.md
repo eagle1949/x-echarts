@@ -157,21 +157,21 @@
 
 ##### 样式 2 config 配置项
 
-| 配置项          | 简介                     | 类型    | 备注                                                                                        |
-| --------------- | ------------------------ | ------- | ------------------------------------------------------------------------------------------- |
-| angle           | 圆环总角度               | number  | 默认为 270 可设置为 180~360 之间的数值，360 为满圆环                                        |
-| barWidth        | 圆环宽度                 | number  | 默认为 20                                                                                   |
-| title           | 标题文字                 | string  | 默认不显示                                                                                  |
-| textOffset      | 文字距离中心点的纵向距离 | string  | 默认为 40% 暂只支持百分比值                                                                 |
-| color           | 圆环颜色                 | array   | 第一项为圆环有数值部分的颜色，默认为全局颜色的第一项； 第二项为圆环剩余刻度颜色，默认为#ddd |
-| isShowTick      | 是否显示刻度             | boolean | 默认为 false                                                                                |
-| isShowTickLabel | 是否显示刻度值           | boolean | 默认与 isShowTick 一致                                                                      |
-| isShowPointer   | 是否显示指针             | boolean | 默认为 false                                                                                |
-| unit            | 数值单位                 | string  | 默认为 %                                                                                    |
-| min             | 最小刻度                 | number  | 默认为 0                                                                                    |
-| max             | 最大刻度                 | number  | 默认为 100                                                                                  |
-| size            | 缩放                     | Number  | 默认不缩放， size 为数字时，指针、刻度、文字按 size 指定倍数缩放                            |
-| type            | 样式类型                 | string  | 值为 1 时使用样式'1' 值为'2'时使用样式 2 值为'3'时使用样式 3                                |
+| Configuration Item | Description                             | Type    | Remarks                                                                                       |
+| ------------------ | --------------------------------------- | ------- | ---------------------------------------------------------------------------------------------- |
+| angle              | Total angle of the circular ring         | number  | Default is 270. Can be set to a value between 180 and 360. 360 represents a full circular ring. |
+| barWidth           | Width of the circular ring               | number  | Default is 20.                                                                                |
+| title              | Title text                               | string  | Default is not displayed.                                                                     |
+| textOffset         | Vertical distance of text from the center | string  | Default is 40%. Only supports percentage values for now.                                       |
+| color              | Colors of the circular ring              | array   | The first item represents the color of the part with values, defaulting to the first color in the overall configuration. The second item represents the color of the remaining scale, defaulting to #ddd. |
+| isShowTick         | Whether to show tick marks               | boolean | Default is false.                                                                             |
+| isShowTickLabel    | Whether to show tick labels              | boolean | Default is the same as isShowTick.                                                             |
+| isShowPointer      | Whether to show the pointer               | boolean | Default is false.                                                                             |
+| unit               | Value unit                               | string  | Default is '%'.                                                                               |
+| min                | Minimum scale                            | number  | Default is 0.                                                                                 |
+| max                | Maximum scale                            | number  | Default is 100.                                                                               |
+| size               | Scaling                                  | number  | Default is no scaling. When size is a number, the pointer, tick marks, and text are scaled by the specified factor. |
+| type               | Style type                               | string  | When the value is '1', style '1' is used. When the value is '2', style '2' is used. When the value is '3', style '3' is used. |
 
 #### 样式 3
 
@@ -238,14 +238,14 @@
 
 ##### 样式 3 config 配置项
 
-| 配置项 | 简介     | 类型   | 备注                                                                          |
-| ------ | -------- | ------ | ----------------------------------------------------------------------------- |
-| title  | 标题文字 | string | 默认不显示                                                                    |
-| color  | 圆环颜色 | array  | 分别为内圆及刻度轴、中间圆、外层圆的颜色 默认为['#458EFD', '#8DC4FD', '#ddd'] |
-| unit   | 数值单位 | string | 默认为 %                                                                      |
-| min    | 最小刻度 | number | 默认为 0                                                                      |
-| max    | 最大刻度 | number | 默认为 100                                                                    |
-| type   | 样式类型 | string | 值为 1 时使用样式'1' 值为'2'时使用样式 2 值为'3'时使用样式 3                  |
+| Configuration Item | Description                             | Type   | Remarks                                                                                          |
+| ------------------ | --------------------------------------- | ------ | ------------------------------------------------------------------------------------------------- |
+| title              | Title text                               | string | Default is not displayed.                                                                        |
+| color              | Colors of the circular ring              | array  | The colors for the inner circle and scale axis, middle circle, and outer circle. Default: ['#458EFD', '#8DC4FD', '#ddd'] |
+| unit               | Value unit                               | string | Default is '%'.                                                                                  |
+| min                | Minimum scale                            | number | Default is 0.                                                                                    |
+| max                | Maximum scale                            | number | Default is 100.                                                                                  |
+| type               | Style type                               | string | When the value is '1', style '1' is used. When the value is '2', style '2' is used. When the value is '3', style '3' is used. |
 
 #### 默认样式
 
@@ -343,19 +343,19 @@
 
 ##### 默认样式 config 配置项
 
-| 配置项 | 简介     | 类型   | 备注                                                                   |
-| ------ | -------- | ------ | ---------------------------------------------------------------------- |
-| color  | 数值颜色 | string | 默认为高亮绿色 #27e4ae                                                 |
-| unit   | 数值单位 | string | 默认为 %                                                               |
-| min    | 最小刻度 | number | 默认为 0                                                               |
-| max    | 最大刻度 | number | 默认为 100                                                             |
-| size   | 缩放     | Number | 默认不缩放， size 为数字时，指针、刻度、文字、表盘按 size 指定倍数缩放 |
+| Configuration Item | Description                             | Type   | Remarks                                            |
+| ------------------ | --------------------------------------- | ------ | -------------------------------------------------- |
+| color              | Value color                             | string | Default is highlight green color, #27e4ae          |
+| unit               | Value unit                              | string | Default is '%'                                    |
+| min                | Minimum scale                           | number | Default is 0                                       |
+| max                | Maximum scale                           | number | Default is 100                                     |
+| size               | Scaling                                 | Number | Default is no scaling. When size is a number, the pointer, scale, text, and dial are scaled by the specified factor. |
 
-#### data 数据
+#### Data
 
-| 数据项     | 简介       | 类型   | 备注 |
-| ---------- | ---------- | ------ | ---- |
-| data.value | 仪表盘比例 | number | 必须 |
+| Data Item         | Description        | Type   | Remarks  |
+| ----------------- | ------------------ | ------ | -------- |
+| data.value        | Gauge value        | number | Required |
 
 #### 空气仪表盘
 
@@ -403,16 +403,16 @@
 </script>
 </script>
 
-#### data 数据
+#### data 
 
-| 数据项     | 简介       | 类型   | 备注 |
-| ---------- | ---------- | ------ | ---- |
-| data.value | 仪表盘比例 | number | 必须 |
+| Data Item    | Description        | Type   | Remarks  |
+| ------------ | ------------------ | ------ | -------- |
+| data.value   | Gauge value        | number | Required |
 
-#### config 配置项
+#### Configuration Items
 
-| 配置项    | 简介               | 类型   | 备注                                                 |
-| --------- | ------------------ | ------ | ---------------------------------------------------- |
-| barWidth  | 圆环宽度           | number | 默认值 15                                            |
-| ringColor | 刻度圆环的填充颜色 | string | 默认值'#ddd'                                         |
-| angle     | 圆环总角度         | number | 默认为 270 可设置为 180~360 之间的数值，360 为满圆环 |
+| Configuration Item | Description             | Type   | Remarks                                                   |
+| ------------------ | ----------------------- | ------ | --------------------------------------------------------- |
+| barWidth           | Ring width              | number | Default value is 15                                       |
+| ringColor          | Fill color of the scale | string | Default value is '#ddd'                                   |
+| angle              | Total angle of the ring | number | Default is 270. Can be set to a value between 180 and 360 |

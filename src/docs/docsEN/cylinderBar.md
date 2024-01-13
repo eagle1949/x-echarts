@@ -114,15 +114,15 @@
 
 #### data 数据
 
-| 数据项 | 简介 | 类型 | 备注 |
-| --- | --- | --- | --- |
-| data.xAxis | x轴类目数据 | array | 必须 |
-| data.data | 数据数组 | array | 必须 |
+| Data Item   | Description        | Type   | Remarks  |
+| ----------- | ------------------ | ------ | -------- |
+| data.xAxis  | x-axis category data | array  | Required |
+| data.data   | Data array          | array  | Required |
 
 #### config 配置项
 
-| 配置项 | 简介 | 类型 | 备注 |
-| --- | --- | --- | --- |
-| color | 颜色 | array，string | 默认使用常规配色， 指定颜色如["#f00", "#00f"]|
-| unit | 数值单位 | string | 默认不显示 |
-| barWidth | 柱宽 | number | 默认为30 |
+| Configuration Item | Description | Type | Remarks |
+| ------------------ | ----------- | ---- | ------- |
+| color              | Color       | array, string | Default color scheme is used. Specify colors as an array like ["#f00", "#00f"]. |
+| unit               | Value unit  | string | Default is not displayed. |
+| barWidth           | Bar width   | number | Default value is 30. |

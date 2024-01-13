@@ -181,13 +181,13 @@
 
 #### data 数据
 
-| 数据项 | 简介 | 类型 | 备注 |
+| Data Property | Description | Type | Remarks |
 | --- | --- | --- | --- |
-| data[i].name | 数据项名称 | string | 必须 |
-| data[i].value | 数据值 | number | 必须 |
+| data[i].name | Name of the data item | string | Required |
+| data[i].value | Data value | number | Required |
 
 #### config 配置项
 
-| 配置项 | 简介 | 类型 | 备注 |
+| Configuration Option | Description | Type | Remarks |
 | --- | --- | --- | --- |
-| showShape | 类型 | array | false 第一种类型，true第二种类型 （圆形） |
+| showShape | Shape visibility | array | false for the first type, true for the second type (circle) |

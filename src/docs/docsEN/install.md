@@ -1,17 +1,10 @@
-<!--
- * @Author: Caijw
- * @Date: 2020-01-06 17:19:00
- * @LastEditors: Caijw
- * @LastEditTime: 2020-03-13 12:38:07
- * @Description: 
- -->
-# 安装和引入
-## 安装依赖
+# Installation and introduction
+## Installation dependencies
 ```
 npm install x-echarts || yarn add x-echarts
 ```
 
-## main.js 中引入
+## Introducing in main.js
 ```
 import xEcharts from 'x-echarts';
 Vue.use(xEcharts); // Vue3中 app.use(xEcharts);

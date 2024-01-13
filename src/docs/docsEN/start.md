@@ -1,26 +1,21 @@
-<!--
- * @Author: Caijw
- * @Date: 2020-01-06 17:19:00
- * @LastEditors  : Caijw
- * @LastEditTime : 2020-01-20 17:30:49
- * @Description: 
- -->
-# 图表属性
+# Chart Properties
 
-## 自有属性
-图表自身的属性，例如用于设置是否显示图例`showLegend`, 形态类型`type`，这样的属性被置于 `config` 内，每种图表的自有属性不完全相同，具体参数请参考具体图表配置
+## Self owned attributes
 
-## 公有属性
-每个图表要设置对应的宽和高
+The attributes of the chart itself, such as whether to display legend `showLegend` and form type `type`, are placed in `config`. The unique attributes of each chart are not exactly the same. Please refer to the specific chart configuration for specific parameters
+
+## Public attributes
+
+Each chart should be set with corresponding width and height
 ```
  <e-bar :data="data" style="width: 600px; height: 400px;"></e-bar>
 ```
 
-| 配置项 | 简介 | 类型 | 备注 |
+| Configuration Item | Introduction | Type | Remarks |
 | --- | --- | --- | --- |
-| data | 数据 | object | -
-| config | 配置项（每种图表的自有属性） | object | -
-| option | 替换echarts默认配置 | object | -
-| show-option | 是否打印echarts的配置项(控制台可以查看) | boolean | false
+| data | data | object | -
+| config | Configuration items (each chart's own properties)  | object | -
+| option | Replace Echarts default configuration | object | -
+| show-option | Whether to print the configuration items for echarts (which can be viewed on the console) | boolean | false
 
 
