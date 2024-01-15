@@ -12,8 +12,11 @@ If you think the tool is useful, please give me a thumbs up on Github
 [click here give me a star](https://github.com/eagle1949/x-echarts)
 
 
-<img src="./images/pie.png" />
 
-<img src="./images/line.png" />
 
-<img src="./images/bar.png" />
+<img src="https://github.com/eagle1949/x-echarts/blob/main/src/x-echarts/images/pie.png?raw=true" />
+
+<img src="https://github.com/eagle1949/x-echarts/blob/main/src/x-echarts/images/line.png?raw=true" />
+
+
+<img src="https://github.com/eagle1949/x-echarts/blob/main/src/x-echarts/images/bar.png?raw=true" />
