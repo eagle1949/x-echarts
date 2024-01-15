@@ -7,20 +7,21 @@
 <script>
 import mixin from '../src/util/mixin';
 import CONFIG from '../src/config/config';
-// import '../src/util/lodash';
-let _merge =  function(...objects) {  
-    let result = {};  
+import lodash from 'lodash';
+let _merge = lodash.merge;
+// let _merge =  function(...objects) {  
+//     let result = {};  
   
-    objects.forEach(obj => {  
-        for (let key in obj) {  
-            if (obj.hasOwnProperty(key)) {  
-                result[key] = obj[key];  
-            }  
-        }  
-    });  
+//     objects.forEach(obj => {  
+//         for (let key in obj) {  
+//             if (obj.hasOwnProperty(key)) {  
+//                 result[key] = obj[key];  
+//             }  
+//         }  
+//     });  
   
-    return result;  
-};;
+//     return result;  
+// };
 import {
     AXIS_STYLE,
     LEGEND,
