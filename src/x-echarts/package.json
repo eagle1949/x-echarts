@@ -1,11 +1,26 @@
 {
   "name": "x-echarts",
-  "version": "0.0.7",
-  "description": "基于echarts封装的vue组件，支持vue2，vue3，只需要统一提供一种对前后端都友好的数据格式设置简单的配置项，便可轻松生成常见的图表",
+  "version": "0.0.9",
+  "description": "基于echarts封装的vue组件，支持vue2，vue3; Based on the echarts-wrapped vue component, it supports vue2 and vue3.",
   "main": "src/index.js",
   "author": "caijw",
   "license": "MIT",
   "type": "module",  
+  "keywords": [
+    "x-echarts",
+    "javascript",
+    "js",
+    "vue2",
+    "vue3",
+	"echarts",
+	"echarts5",
+	"easy use",
+	"vue3 echarts",
+	"vue2 echarts",
+	"vue3 component echarts",
+	"vue2 component echarts",
+	"vue echarts"
+  ],
   "homepage": "https://github.com/eagle1949/x-echarts",
   "Repository": "https://github.com/eagle1949/x-echarts",
   "dependencies": {
