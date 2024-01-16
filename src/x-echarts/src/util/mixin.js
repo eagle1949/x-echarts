@@ -1,34 +1,36 @@
 /** @format */
 
-import CONFIG from '../config/config';
-import lodash from 'lodash';
-let _merge = lodash.merge;
-let _debounce = lodash.debounce;
+// import lodash from 'lodash';
+// let _merge = lodash.merge;
+// let _debounce = lodash.debounce;
 // import './lodash';
-// let _merge = function(...objects) {  
-//     let result = {};  
+
+import CONFIG from '../config/config';
+
+let _merge = function(...objects) {  
+    let result = {};  
   
-//     objects.forEach(obj => {  
-//         for (let key in obj) {  
-//             if (obj.hasOwnProperty(key)) {  
-//                 result[key] = obj[key];  
-//             }  
-//         }  
-//     });  
+    objects.forEach(obj => {  
+        for (let key in obj) {  
+            if (obj.hasOwnProperty(key)) {  
+                result[key] = obj[key];  
+            }  
+        }  
+    });  
   
-//     return result;  
-// };
-// let _debounce = function(func, wait) {  
-// 	let timeout;  
-// 	return function() {  
-// 	  const context = this;  
-// 	  const args = arguments;  
-// 	  clearTimeout(timeout);  
-// 	  timeout = setTimeout(function() {  
-// 		func.apply(context, args);  
-// 	  }, wait);  
-// 	};  
-//   };
+    return result;  
+};
+let _debounce = function(func, wait) {  
+	let timeout;  
+	return function() {  
+	  const context = this;  
+	  const args = arguments;  
+	  clearTimeout(timeout);  
+	  timeout = setTimeout(function() {  
+		func.apply(context, args);  
+	  }, wait);  
+	};  
+  };
 import { getNoDataOption, getFontColor } from '../../src/util/nomalChart';
 import util from './util';
 // let echarts = require('echarts');

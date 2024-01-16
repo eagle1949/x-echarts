@@ -1,6 +1,6 @@
 {
   "name": "x-echarts",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "基于echarts封装的vue组件，支持vue2，vue3; Based on the echarts-wrapped vue component, it supports vue2 and vue3.",
   "main": "src/index.js",
   "author": "caijw",

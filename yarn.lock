@@ -413,7 +413,7 @@ he@^1.2.0:
   resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
 
-lodash@^4.17.15, lodash@^4.5.0:
+lodash@^4.17.15:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -549,10 +549,10 @@ vue@^3.3.11:
     "@vue/server-renderer" "3.3.13"
     "@vue/shared" "3.3.13"
 
-x-echarts@0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/x-echarts/-/x-echarts-0.0.5.tgz#be65228cd30eaa2d87a5fcfa64e027f4b114f055"
-  integrity sha512-xpI34QQSm5bNeZ4CUP2aixvx7kaYZjls0avNz4cTf6Q0yWilZqP8ou8hUVhQTFu/shmV92QipWafm0uVGjkhtw==
+x-echarts@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/x-echarts/-/x-echarts-1.0.0.tgz#8bd110bbdb2813337156580dc9631525a0a1990b"
+  integrity sha512-qi4fsgayCKpBCibs8UPjrko29cZtVHfWfmLw1l/q2xLYtYKuQkTM3f8LhZcoD4yAgxLe2OndEy5kPkbCPnabwg==
   dependencies:
     echarts "^5.4.0"
     echarts-liquidfill "^3.0.0"
