@@ -4,7 +4,7 @@
 > Based on the echarts-wrapped vue component, it supports vue2 and vue3. Simply provide a unified data format that is friendly to both the front-end and back-end, and you can easily generate common charts with simple configuration items.
 
 
-<a href="http://121.43.33.102/docsEn/#/" target="_blank">English Docs</a> | 
+<a href="http://121.43.33.102/docs/#/en/intro" target="_blank">English Docs</a> | 
 <a href="http://121.43.33.102/docs/#/" target="_blank">中文文档</a>
 
 ## Features

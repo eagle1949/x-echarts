@@ -1,0 +1,3 @@
+- Translations
+  - [:cn: 中文](/intro)
+  - [:uk: English](/en/intro)
