@@ -6,7 +6,8 @@
   "scripts": {
 	"fastInstall": "yarn install",
     "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "build": "vite build",
+	"tsBuild": "vue-tsc && vite build",
 	"lib": "vite build",
     "preview": "vite preview"
   },
