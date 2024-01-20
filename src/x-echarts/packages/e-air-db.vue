@@ -1,6 +1,7 @@
 <!-- @format -->
 
 <template>
+	
     <div ref="chart" :class="className"></div>
 </template>
 
