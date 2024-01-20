@@ -71,7 +71,7 @@ Vue.use(xEcharts); // Vue3中 app.use(xEcharts);
 </script>
 ```
 
-<img src="https://github.com/eagle1949/x-echarts/blob/main/src/x-echarts/images/common.png?raw=true" />
+<img src="https://github.com/eagle1949/x-echarts/blob/main/src/assets/images/common.png?raw=true" />
 
 ```
 <template>
@@ -103,7 +103,7 @@ Vue.use(xEcharts); // Vue3中 app.use(xEcharts);
 </script>
 ```
 
-<img src="https://github.com/eagle1949/x-echarts/blob/main/src/x-echarts/images/pie.png?raw=true" />
+<img src="https://github.com/eagle1949/x-echarts/blob/main/src/assets/images/pie.png?raw=true" />
 
 ```
 <template>
@@ -137,7 +137,7 @@ Vue.use(xEcharts); // Vue3中 app.use(xEcharts);
   }
 </script>
 ```
-<img src="https://github.com/eagle1949/x-echarts/blob/main/src/x-echarts/images/bar.png?raw=true" />
+<img src="https://github.com/eagle1949/x-echarts/blob/main/src/assets/images/bar.png?raw=true" />
 
 # upgrade 2024-1-16 V1.0.0
 support vite

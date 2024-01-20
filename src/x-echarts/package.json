@@ -1,6 +1,6 @@
 {
   "name": "x-echarts",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "基于echarts封装的vue组件，支持vue2，vue3; Based on the echarts-wrapped vue component, it supports vue2 and vue3.",
   "main": "src/index.js",
   "author": "caijw",
@@ -19,10 +19,15 @@
 	"vue2 echarts",
 	"vue3 component echarts",
 	"vue2 component echarts",
-	"vue echarts"
+	"vue echarts",
+	"vite",
+	"vite echarts"
   ],
-  "homepage": "https://github.com/eagle1949/x-echarts",
-  "Repository": "https://github.com/eagle1949/x-echarts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eagle1949/x-echarts.git"
+  },
+  "homepage": "http://121.43.33.102/docs/#/",
   "dependencies": {
 	"echarts": "^5.4.0",
     "echarts-liquidfill": "^3.0.0",
