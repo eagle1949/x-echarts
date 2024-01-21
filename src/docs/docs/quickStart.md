@@ -2,7 +2,7 @@
 
 ## 根据业务选择对应图表
 
-- 比如我们要用到线性图，这个时候就引入`eee-line`标签到vue页面中
+- 比如我们要用到线性图，这个时候就引入`e-line`标签到vue页面中
 
 <vuep template="#simple"></vuep>
 
