@@ -1,0 +1,1 @@
+.p-chart-no-data{background:url(img/nodata.73a173a1.png) no-repeat 50%;position:relative}.p-chart-no-data:after{content:"暂时没有数据";position:absolute;top:50%;margin-top:90px;width:100%;text-align:center;color:#999;left:0;font-size:16px}.darkTheme .p-chart-no-data{background-image:url(img/nodata_dark.46a7304d.png)}.darkTheme .p-chart-no-data:after{color:#fff;opacity:.8}
