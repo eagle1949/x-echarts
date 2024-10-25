@@ -307,9 +307,7 @@ const getMarkLine = (data) => {
             name: v.name,
             yAxis: v.value,
             itemStyle: {
-                normal: {
-                    color: v.color || '#f00'
-                }
+                color: v.color || '#f00'
             }
         });
     });
@@ -322,11 +320,9 @@ const getMarkLine = (data) => {
         },
         data: lines,
         label: {
-            normal: {
                 show: true,
                 color: getFontColor(),
                 formatter: '{b}'
-            }
         }
     };
     return markLine;
@@ -448,10 +444,8 @@ export const renderPie = (data, configObj, opt) => {
                     formatter: configObj.labelFormatter
                 },
                 itemStyle: {
-                    normal: {
                         //shadowColor: 'rgba(0,0,0,0.4)',
                         shadowBlur: 0
-                    }
                 },
                 labelLine: {
                     show: configObj.showLabel
@@ -942,11 +936,9 @@ export const renderStripeBar = (data, configObj, opt) => {
                 barGap: '-100%',
                 data: seriesData.map(() => max), //每个值都取最大值
                 itemStyle: {
-                    normal: {
                         barBorderRadius: barWidth / 2,
                         //borderColor: color[1],
                         color: color[1]
-                    }
                 },
                 label: {
                     show:
@@ -969,12 +961,10 @@ export const renderStripeBar = (data, configObj, opt) => {
                 barWidth: barWidth,
                 data: seriesData,
                 itemStyle: {
-                    normal: {
-                        barBorderRadius: 8,
-                        color: color[0],
-                        shadowBlur: 0,
-                        shadowColor: '#000'
-                    }
+					barBorderRadius: 8,
+					color: color[0],
+					shadowBlur: 0,
+					shadowColor: '#000'
                 }
             }
         ]
@@ -1265,9 +1255,7 @@ export const renderStripeBar3 = (data, configObj, opt) => {
 				symbolOffset: [25, 0],
 				z: 12,
 				itemStyle: {
-					normal: {
-						color: '#fff',
-					},
+					color: '#fff',
 				},
 				data: getSymbolData(data),
 			},
@@ -1279,10 +1267,8 @@ export const renderStripeBar3 = (data, configObj, opt) => {
 				z: 1,
 				data: defaultData,
 				itemStyle: {
-					normal: {
-						color: '#0b2645',
-						barBorderRadius: 10,
-					},
+					color: '#0b2645',
+					barBorderRadius: 10,
 				},
 			},
 			{
@@ -1332,16 +1318,14 @@ export const renderStripeBar3 = (data, configObj, opt) => {
 					// barBorderRadius: 4,
 				},
 				label: {
-					normal: {
-						color: '#fff',
-						show: true,
-						position: [0, '-20px'],
-						textStyle: {
-							fontSize: 16,
-						},
-						formatter: function (a) {
-							return a.name;
-						},
+					color: '#fff',
+					show: true,
+					position: [0, '-20px'],
+					textStyle: {
+						fontSize: 16,
+					},
+					formatter: function (a) {
+						return a.name;
 					},
 				},
 			},
@@ -1422,14 +1406,12 @@ export const renderCylinderBar = (data, configObj, opt) => {
                 symbolPosition: 'end',
                 z: 12,
                 label: {
-                    normal: {
-                        textStyle: {
-                            color: getFontColor()
-                        },
-                        show: true,
-                        position: 'top',
-                        formatter: '{c}' + (configObj.unit || '')
-                    }
+					textStyle: {
+						color: getFontColor()
+					},
+					show: true,
+					position: 'top',
+					formatter: '{c}' + (configObj.unit || '')
                 },
                 silent: true,
                 data: seriesData
@@ -1562,11 +1544,9 @@ export const rainbowchart = (configObj, opt) => {
             type: 'pie',
             radius: [ra * 20 + 52 + '%', 43 + ra * 20 + '%'],
             itemStyle: {
-                normal: {
-                    label: {
-                        show: false
-                    }
-                }
+				label: {
+					show: false
+				}
             },
             hoverAnimation: false,
             startAngle: 180,
@@ -1576,23 +1556,19 @@ export const rainbowchart = (configObj, opt) => {
                     value: test_data[j]['value'],
                     name: test_data[j]['name'],
                     label: {
-                        normal: {
-                            postion: 'center'
-                        }
+                        postion: 'center'
                     }
                 },
                 {
                     value: maxData - test_data[j]['value'],
                     itemStyle: {
-                        normal: {
-                            color: 'rgba(203,203,203,0.5)',
-                            label: {
-                                show: false
-                            },
-                            labelLine: {
-                                show: false
-                            }
-                        },
+						color: 'rgba(203,203,203,0.5)',
+						label: {
+							show: false
+						},
+						labelLine: {
+							show: false
+						},
                         emphasis: {
                             color: 'rgba(203,203,203,1)'
                         }
@@ -1602,15 +1578,15 @@ export const rainbowchart = (configObj, opt) => {
                 {
                     value: maxData,
                     itemStyle: {
-                        normal: {
-                            color: 'rgba(0,0,0,0)',
-                            label: {
-                                show: true
-                            },
-                            labelLine: {
-                                show: true
-                            }
-                        },
+                        // normal: {
+						color: 'rgba(0,0,0,0)',
+						label: {
+							show: true
+						},
+						labelLine: {
+							show: true
+						},
+                        // },
                         emphasis: {
                             color: 'rgba(0,0,0,0)'
                         }
@@ -1683,27 +1659,23 @@ export const ringchart = (configObj, opt) => {
     let text = configObj.data.name;
     let val = configObj.data.value;
     let dataStyle = {
-        normal: {
-            label: {
-                show: false
-            },
-            labelLine: {
-                show: false
-            },
-            shadowBlur: 0,
-            shadowColor: 'rgba(40, 40, 40, 0.1)'
-        }
+		label: {
+			show: false
+		},
+		labelLine: {
+			show: false
+		},
+		shadowBlur: 0,
+		shadowColor: 'rgba(40, 40, 40, 0.1)'
     };
     let placeHolderStyle = {
-        normal: {
-            color: configObj.color ? getColor(configObj.color[0]) : '#78b4ff', // 未完成的圆环的颜色
-            label: {
-                show: false
-            },
-            labelLine: {
-                show: false
-            }
-        },
+		color: configObj.color ? getColor(configObj.color[0]) : '#78b4ff', // 未完成的圆环的颜色
+		label: {
+			show: false
+		},
+		labelLine: {
+			show: false
+		},
         emphasis: {
             color: configObj.color ? getColor(configObj.color[0]) : '#78b4ff' // 未完成的圆环的颜色
         }
@@ -1746,12 +1718,10 @@ export const ringchart = (configObj, opt) => {
                     {
                         value: 100 - Number(val),
                         itemStyle: {
-                            normal: {
-                                color: configObj.color
-                                    ? getColor(configObj.color[1])
-                                    : '#eee',
-                                shadowBlur: 0
-                            }
+							color: configObj.color
+								? getColor(configObj.color[1])
+								: '#eee',
+							shadowBlur: 0
                         }
                     },
                     {
@@ -1925,22 +1895,18 @@ export const renderHeatmap = (data, configObj, opt) => {
                 type: 'heatmap',
                 data: seriesData,
                 label: {
-                    normal: {
-                        show: configObj.showLabel !== false,
-                        color: '#fff',
-                        formatter: function (v) {
-                            let val = v.value[2];
-                            if (configObj.categories) {
-                                return configObj.categories[val - 1] || '-';
-                            }
-                            return val;
-                        }
-                    }
+					show: configObj.showLabel !== false,
+					color: '#fff',
+					formatter: function (v) {
+						let val = v.value[2];
+						if (configObj.categories) {
+							return configObj.categories[val - 1] || '-';
+						}
+						return val;
+					}
                 },
                 itemStyle: {
-                    normal: {
-                        borderColor: 'rgba(255, 255, 255, 0.5)'
-                    },
+                    borderColor: 'rgba(255, 255, 255, 0.5)',
                     emphasis: {
                         shadowBlur: 0,
                         shadowColor: 'rgba(255, 255, 255, 0.5)'
@@ -2295,16 +2261,13 @@ export const dashboardchart1 = (configObj, angle = 0) => {
                 startAngle: 90,
                 z: 0,
                 label: {
-                    normal: {
-                        position: 'center'
-                    }
+                    position: 'center'
                 },
                 data: [
                     {
                         value: value,
                         name: '',
                         itemStyle: {
-                            normal: {
                                 color: colorArr[0]
                                 /* color: { // 完成的圆环的颜色
                                     colorStops: [{
@@ -2315,21 +2278,16 @@ export const dashboardchart1 = (configObj, angle = 0) => {
                                         color: '#28E8FA' // 100% 处的颜色
                                     }]
                                 }, */
-                            }
                         }
                     },
                     {
                         value: max - value,
                         name: '',
                         label: {
-                            normal: {
-                                show: false
-                            }
+                            show: false
                         },
                         itemStyle: {
-                            normal: {
-                                color: colorArr[1]
-                            }
+                            color: colorArr[1]
                         }
                     }
                 ]
@@ -2653,21 +2611,17 @@ export const dashboardchart3 = (configObj, opt) => {
                     {
                         value: value,
                         itemStyle: {
-                            normal: {
-                                color: colors[0]
-                            }
+                            color: colors[0]
                         },
                         label: {
-                            normal: {
-                                formatter: function (params) {
-                                    return params.value + unit;
-                                },
-                                color: '#fff',
-                                fontSize: 30 * scale,
-                                fontWeight: 'normal',
-                                position: 'center',
-                                show: true
-                            }
+							formatter: function (params) {
+								return params.value + unit;
+							},
+							color: '#fff',
+							fontSize: 30 * scale,
+							fontWeight: 'normal',
+							position: 'center',
+							show: true
                         },
                         labelLine: {
                             show: false
@@ -2694,9 +2648,7 @@ export const dashboardchart3 = (configObj, opt) => {
                     {
                         value: 1,
                         itemStyle: {
-                            normal: {
-                                color: colors[1]
-                            }
+                            color: colors[1]
                         }
                     }
                 ]
@@ -2719,9 +2671,7 @@ export const dashboardchart3 = (configObj, opt) => {
                     {
                         value: 1,
                         itemStyle: {
-                            normal: {
-                                color: colors[2]
-                            }
+                            color: colors[2]
                         }
                     }
                 ]
@@ -2933,13 +2883,11 @@ export const waterPolochart1 = (configObj, opt) => {
                     color: configObj.backgroundColor || 'transparent'
                 },
                 label: {
-                    normal: {
-                        //formatter: (value * 100).toFixed(2) + '%',
-                        textStyle: {
-                            fontSize: 30,
-                            color: configObj.labelColor
-                        }
-                    }
+					//formatter: (value * 100).toFixed(2) + '%',
+					textStyle: {
+						fontSize: 30,
+						color: configObj.labelColor
+					}
                 }
             }
         ]
@@ -3081,7 +3029,6 @@ export const waterPolochart = (configObj) => {
                 },
             ], */
                 label: {
-                    normal: {
                         show: false
                         //formatter: (value * 100).toFixed(2) + '%',
                         /*  top: '60%',
@@ -3089,7 +3036,6 @@ export const waterPolochart = (configObj) => {
                         fontSize: 30,
                         color: configObj.labelColor || CONFIG.FONT_COLOR
                     } */
-                    }
                 },
                 outline: {
                     show: !!configObj.borderColor,
@@ -3183,27 +3129,25 @@ export const renderLine = (data, configObj, opt) => {
             let fillColor_ = getColorRgb(color[i]).concat(0);
             v.areaStyle = {
                 //区域填充样式
-                normal: {
-                    color: {
-                        type: 'linear',
-                        x: 0,
-                        y: 0,
-                        x2: 0,
-                        y2: 1,
-                        colorStops: [
-                            {
-                                offset: 0,
-                                color: `rgba(${fillColor.join(',')})` // 0% 处的颜色
-                            },
-                            {
-                                offset: 1,
-                                color: `rgba(${fillColor_.join(',')})` // 100% 处的颜色
-                            }
-                        ]
-                    },
-                    shadowColor: 'rgba(0, 0, 0, 0.1)',
-                    shadowBlur: 0
-                }
+				color: {
+					type: 'linear',
+					x: 0,
+					y: 0,
+					x2: 0,
+					y2: 1,
+					colorStops: [
+						{
+							offset: 0,
+							color: `rgba(${fillColor.join(',')})` // 0% 处的颜色
+						},
+						{
+							offset: 1,
+							color: `rgba(${fillColor_.join(',')})` // 100% 处的颜色
+						}
+					]
+				},
+				shadowColor: 'rgba(0, 0, 0, 0.1)',
+				shadowBlur: 0
             };
         }
     });
@@ -3312,27 +3256,21 @@ export const renderBar = (data, configObj, opt) => {
 			// 顶部圆角
 			if(configObj.topRing){
 				v.itemStyle = {
-					normal: {
-						barBorderRadius: [30, 30, 0, 0]
-					}
+					barBorderRadius: [30, 30, 0, 0]
 				}
 			}
 
 			// 右边圆角
 			if(configObj.rightRing){
 				v.itemStyle = {
-					normal: {
-						barBorderRadius: [0, 30, 30, 0]
-					}
+					barBorderRadius: [0, 30, 30, 0]
 				}
 			}
 
 			// 顶部，底部圆环
 			if(configObj.tbRing){
 				v.itemStyle = {
-					normal: {
-						barBorderRadius: [30, 30, 30, 30]
-					}
+					barBorderRadius: [30, 30, 30, 30]
 				}
 			}
 			
@@ -3959,27 +3897,20 @@ export const renderSanKey = (data, configObj, opt) => {
                 focusNodeAdjacency: 'allEdges',
                 draggable: false,
                 itemStyle: {
-                    normal: {
                         borderWidth: 0,
                         borderColor: '#fff',
                         opacity: 1
-                    }
                 },
                 label: {
-                    align: 'center',
-                    normal: {
-                        align: 'center',
-                        padding: [0, 0, 0, -90],
-                        color: '#fff',
-                        fontSize: CONFIG.FONT_S
-                    }
+					align: 'center',
+					padding: [0, 0, 0, -90],
+					color: '#fff',
+					fontSize: CONFIG.FONT_S
                 },
                 lineStyle: {
-                    normal: {
-                        curveness: 0.5,
-                        opacity: 0.6,
-                        color: 'rgb(18, 180, 129)'
-                    }
+					curveness: 0.5,
+					opacity: 0.6,
+					color: 'rgb(18, 180, 129)'
                 }
             }
         ]
@@ -4020,26 +3951,22 @@ export const renderVarietyBar = (data, configObj, opt) => {
     let yAxis = [];
 
     let itemStyleUp = {
-        normal: {
-            barBorderRadius: [
-                0,
-                configObj.barWidth / 2,
-                configObj.barWidth / 2,
-                0
-            ],
-            color: configObj.color[0]
-        }
+		barBorderRadius: [
+			0,
+			configObj.barWidth / 2,
+			configObj.barWidth / 2,
+			0
+		],
+		color: configObj.color[0]
     };
     let itemStyleDn = {
-        normal: {
-            barBorderRadius: [
-                configObj.barWidth / 2,
-                0,
-                0,
-                configObj.barWidth / 2
-            ],
-            color: configObj.color[1]
-        }
+		barBorderRadius: [
+			configObj.barWidth / 2,
+			0,
+			0,
+			configObj.barWidth / 2
+		],
+		color: configObj.color[1]
     };
     let series = [];
     data.forEach((v) => {
@@ -4117,17 +4044,15 @@ export const renderVarietyBar = (data, configObj, opt) => {
                 yAxisIndex: 1,
                 data: data3,
                 itemStyle: {
-                    normal: {
-                        barBorderRadius: [
-                            configObj.barWidth / 2,
-                            0,
-                            0,
-                            configObj.barWidth / 2
-                        ],
-                        borderColor: configObj.color[2],
-                        borderWidth: 1,
-                        color: 'rgba(0,0,0,0)'
-                    }
+					barBorderRadius: [
+						configObj.barWidth / 2,
+						0,
+						0,
+						configObj.barWidth / 2
+					],
+					borderColor: configObj.color[2],
+					borderWidth: 1,
+					color: 'rgba(0,0,0,0)'
                 },
                 silent: true
             },
@@ -4138,17 +4063,15 @@ export const renderVarietyBar = (data, configObj, opt) => {
                 data: data2,
                 yAxisIndex: 1,
                 itemStyle: {
-                    normal: {
-                        barBorderRadius: [
-                            0,
-                            configObj.barWidth / 2,
-                            configObj.barWidth / 2,
-                            0
-                        ],
-                        borderColor: configObj.color[2],
-                        borderWidth: 1,
-                        color: 'rgba(0,0,0,0)'
-                    }
+					barBorderRadius: [
+						0,
+						configObj.barWidth / 2,
+						configObj.barWidth / 2,
+						0
+					],
+					borderColor: configObj.color[2],
+					borderWidth: 1,
+					color: 'rgba(0,0,0,0)'
                 },
                 label: {
                     show: true,
@@ -4286,15 +4209,13 @@ export const renderAssetsBar = (data, configObj, opt) => {
                 barGap: '-100%',
                 data: data1,
                 itemStyle: {
-                    normal: {
-                        barBorderRadius: [
-                            configObj.barWidth / 2,
-                            0,
-                            0,
-                            configObj.barWidth / 2
-                        ],
-                        color: configObj.color[0]
-                    }
+					barBorderRadius: [
+						configObj.barWidth / 2,
+						0,
+						0,
+						configObj.barWidth / 2
+					],
+					color: configObj.color[0]
                 },
                 z: 5
             },
@@ -4304,15 +4225,13 @@ export const renderAssetsBar = (data, configObj, opt) => {
                 barWidth: configObj.barWidth,
                 data: data2,
                 itemStyle: {
-                    normal: {
-                        barBorderRadius: [
-                            configObj.barWidth / 2,
-                            0,
-                            0,
-                            configObj.barWidth / 2
-                        ],
-                        color: configObj.color[1]
-                    }
+					barBorderRadius: [
+						configObj.barWidth / 2,
+						0,
+						0,
+						configObj.barWidth / 2
+					],
+					color: configObj.color[1]
                 },
                 z: 10
             }

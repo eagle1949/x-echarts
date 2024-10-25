@@ -141,3 +141,6 @@ Vue.use(xEcharts); // Vue3中 app.use(xEcharts);
 
 # upgrade 2024-1-16 V1.0.0
 support vite
+
+# upgrade 2024-2-2 V1.0.6
+fix the some warning with "e-pie" 

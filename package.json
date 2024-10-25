@@ -12,7 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-	"x-echarts": "1.0.0",
+	"x-echarts": "1.0.6",
     "vue": "^3.3.11",
 	"echarts": "^5.4.0",
     "echarts-liquidfill": "^3.0.0",
