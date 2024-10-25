@@ -2,7 +2,7 @@
 
 ## Select corresponding charts based on business
 
-- For example, when we need to use a linear graph, we introduce the `p-line` label into the Vue page
+- For example, when we need to use a linear graph, we introduce the `e-line` label into the Vue page
 
 <vuep template="#simple"></vuep>
 
